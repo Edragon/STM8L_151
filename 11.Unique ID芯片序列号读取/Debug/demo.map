@@ -1,0 +1,767 @@
+
+Map of Debug\demo.sm8 from link file Debug\demo.lkf - Thu Aug 09 16:39:59 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008117 length   151 segment .const
+start 0000811a end 0000925c length  4418 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 0000000b length    11 segment .ubsct
+start 0000000b end 0000000b length     0 segment .bit
+start 0000000b end 0000000b length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 000007d2 length  2002 segment .info.
+start 00000000 end 00004a09 length 18953 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008117 end 0000811a length     3 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
+start 0000811a end 0000816a length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\main.o:
+start 0000816a end 00008266 length   252 section .text
+start ******** end ******** length     0 section .bsct *** removed ***
+start 00000000 end 0000022c length   556 section .debug
+start 00000034 end 0000009f length   107 section .info.
+start 00008080 end 000080b4 length    52 section .const
+
+Debug\stm8l15x_it.o:
+start 00008266 end 000082c3 length    93 section .text
+start 00000000 end 00000001 length     1 section .ubsct
+start 0000022c end 00000b8c length  2400 section .debug
+start 0000009f end 00000111 length   114 section .info.
+
+Debug\stm8l15x_clk.o:
+start 000082c3 end 00008620 length   861 section .text
+start 00000b8c end 0000256b length  6623 section .debug
+start 00000111 end 00000184 length   115 section .info.
+start 000080b4 end 000080b9 length     5 section .const
+
+Debug\stm8l15x_gpio.o:
+start 00008620 end 000086ec length   204 section .text
+start 0000256b end 000030ac length  2881 section .debug
+start 00000184 end 000001f8 length   116 section .info.
+
+Debug\stm8l15x_usart.o:
+start 000086ec end 00008a3e length   850 section .text
+start 000030ac end 000048e3 length  6199 section .debug
+start 000001f8 end 0000026d length   117 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)sprnt.o:
+start 00008a3e end 00008a52 length    20 section .text
+start 0000026d end 000002df length   114 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o:
+start 00008a52 end 00008f7e length  1324 section .text
+start 000002df end 00000352 length   115 section .info.
+start 000080b9 end 000080f2 length    57 section .const
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o:
+start 00008f7e end 0000908e length   272 section .text
+start 00000352 end 000003c3 length   113 section .info.
+start 000080f2 end 00008117 length    37 section .const
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)idiv0.o:
+start 0000908e end 00009099 length    11 section .text
+start 000003c3 end 000003f0 length    45 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o:
+start 00009099 end 000090b4 length    27 section .text
+start 000003f0 end 0000041e length    46 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)putchr.o:
+start 000090b4 end 000090b7 length     3 section .text
+start 0000041e end 00000491 length   115 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strlen0.o:
+start 000090b7 end 000090c3 length    12 section .text
+start 00000491 end 000004c0 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)toup0.o:
+start 000090c3 end 000090ce length    11 section .text
+start 000004c0 end 000004ed length    45 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 000090ce end 000091b9 length   235 section .text
+start 000004ed end 0000051c length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o:
+start 000091b9 end 000091da length    33 section .text
+start 0000051c end 0000054b length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 000091da end 000091ed length    19 section .text
+start 0000054b end 0000057b length    48 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 000091ed end 00009202 length    21 section .text
+start 0000057b end 000005aa length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 00000001 end 00000005 length     4 section .ubsct
+start 000005aa end 000005d9 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 00009202 end 00009214 length    18 section .text
+start 000005d9 end 00000608 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o:
+start 00009214 end 00009228 length    20 section .text
+start 00000608 end 00000638 length    48 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o:
+start 00009228 end 00009237 length    15 section .text
+start 00000638 end 00000668 length    48 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o:
+start 00009237 end 0000924a length    19 section .text
+start 00000668 end 00000697 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 0000924a end 0000925c length    18 section .text
+start 00000697 end 000006c6 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000005 end 00000008 length     3 section .ubsct
+start 000006c6 end 000006f5 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000008 end 0000000b length     3 section .ubsct
+start 000006f5 end 00000724 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 000048e3 end 00004a09 length   294 section .debug
+start 00000724 end 000007a0 length   124 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+_Delay                                       >    4   (4)
+_Get_ChipID                                       2   (2)
+_USART_SendStr                                   11   (4)
+_main                                        >  152   (64)
+
+Debug\stm8l15x_clk.o:
+_CLK_AdjustHSICalibrationValue               >    2   (2)
+_CLK_BEEPClockConfig                         >    2   (2)
+_CLK_CCOConfig                               >    4   (4)
+_CLK_ClearFlag                               >    2   (2)
+_CLK_ClearITPendingBit                       >    2   (2)
+_CLK_ClockSecuritySystemEnable               >    2   (2)
+_CLK_ClockSecuritySytemDeglitchCmd           >    2   (2)
+_CLK_DeInit                                  >    2   (2)
+_CLK_GetClockFreq                                25   (11)
+_CLK_GetFlagStatus                           >    5   (5)
+_CLK_GetITStatus                             >    4   (4)
+_CLK_GetSYSCLKSource                         >    2   (2)
+_CLK_HSEConfig                               >    2   (2)
+_CLK_HSICmd                                  >    2   (2)
+_CLK_HaltConfig                              >    4   (4)
+_CLK_ITConfig                                >    4   (4)
+_CLK_LSEClockSecuritySystemEnable            >    2   (2)
+_CLK_LSEConfig                               >    2   (2)
+_CLK_LSICmd                                  >    2   (2)
+_CLK_MainRegulatorCmd                        >    2   (2)
+_CLK_PeripheralClockConfig                        5   (5)
+_CLK_RTCCLKSwitchOnLSEFailureEnable          >    2   (2)
+_CLK_RTCClockConfig                          >    4   (4)
+_CLK_SYSCLKDivConfig                         >    2   (2)
+_CLK_SYSCLKSourceConfig                      >    2   (2)
+_CLK_SYSCLKSourceSwitchCmd                   >    2   (2)
+
+Debug\stm8l15x_gpio.o:
+_GPIO_DeInit                                 >    2   (2)
+_GPIO_ExternalPullUpConfig                   >    6   (6)
+_GPIO_Init                                        6   (6)
+_GPIO_ReadInputData                          >    2   (2)
+_GPIO_ReadInputDataBit                       >    5   (5)
+_GPIO_ReadOutputData                         >    2   (2)
+_GPIO_ReadOutputDataBit                      >    5   (5)
+_GPIO_ResetBits                              >    5   (5)
+_GPIO_SetBits                                >    5   (5)
+_GPIO_ToggleBits                             >    5   (5)
+_GPIO_Write                                  >    5   (5)
+_GPIO_WriteBit                               >    6   (6)
+
+Debug\stm8l15x_it.o:
+f_ADC1_COMP_IRQHandler                       >    6   (6)
+f_DMA1_CHANNEL0_1_IRQHandler                 >    6   (6)
+f_DMA1_CHANNEL2_3_IRQHandler                 >    6   (6)
+f_EXTI0_IRQHandler                           >    6   (6)
+f_EXTI1_IRQHandler                           >    6   (6)
+f_EXTI2_IRQHandler                           >    6   (6)
+f_EXTI3_IRQHandler                           >    6   (6)
+f_EXTI4_IRQHandler                           >    6   (6)
+f_EXTI5_IRQHandler                           >    6   (6)
+f_EXTI6_IRQHandler                           >    6   (6)
+f_EXTI7_IRQHandler                           >    6   (6)
+f_EXTIB_G_IRQHandler                         >    6   (6)
+f_EXTID_H_IRQHandler                         >    6   (6)
+f_EXTIE_F_PVD_IRQHandler                     >    6   (6)
+f_FLASH_IRQHandler                           >    6   (6)
+f_I2C1_SPI2_IRQHandler                       >    6   (6)
+f_LCD_AES_IRQHandler                         >    6   (6)
+f_NonHandledInterrupt                        >    6   (6)
+f_RTC_CSSLSE_IRQHandler                      >    6   (6)
+f_SPI1_IRQHandler                            >    6   (6)
+f_SWITCH_CSS_BREAK_DAC_IRQHandler            >    6   (6)
+f_TIM1_CC_IRQHandler                         >    6   (6)
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler            >    6   (6)
+f_TIM2_CC_USART2_RX_IRQHandler               >    6   (6)
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler  >    6   (6)
+f_TIM3_CC_USART3_RX_IRQHandler               >    6   (6)
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler  >    6   (6)
+f_TIM4_UPD_OVF_TRG_IRQHandler                >    6   (6)
+f_TRAP_IRQHandler                            >    6   (6)
+f_USART1_RX_TIM5_CC_IRQHandler               >   19   (12)
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+
+Debug\stm8l15x_usart.o:
+_USART_ClearFlag                             >    6   (6)
+_USART_ClearITPendingBit                     >    7   (7)
+_USART_ClockInit                             >    8   (8)
+_USART_Cmd                                        5   (5)
+_USART_DMACmd                                >    6   (6)
+_USART_DeInit                                >    2   (2)
+_USART_GetFlagStatus                              7   (7)
+_USART_GetITStatus                           >    9   (9)
+_USART_HalfDuplexCmd                         >    5   (5)
+_USART_ITConfig                              >    9   (9)
+_USART_Init                                      41   (16)
+_USART_IrDACmd                               >    5   (5)
+_USART_IrDAConfig                            >    5   (5)
+_USART_ReceiveData8                               2   (2)
+_USART_ReceiveData9                          >    6   (6)
+_USART_ReceiverWakeUpCmd                     >    5   (5)
+_USART_SendBreak                             >    2   (2)
+_USART_SendData8                                  5   (5)
+_USART_SendData9                             >    6   (6)
+_USART_SetAddress                            >    5   (5)
+_USART_SetGuardTime                          >    5   (5)
+_USART_SetPrescaler                          >    5   (5)
+_USART_SmartCardCmd                          >    5   (5)
+_USART_SmartCardNACKCmd                      >    5   (5)
+_USART_WakeUpConfig                          >    5   (5)
+
+D:\Program Files (x86:
+L11__cvtup                                        8   (6)
+L31__putbuf                                      12   (9)
+L7__gnum                                         19   (16)
+__print                                          74   (51)
+__udiv                                            4   (4)
+__uldiv                                           6   (6)
+__itob                                           19   (15)
+__ltob                                           23   (17)
+_putchar                                          3   (3)
+_sprintf                                         88   (14)
+_strlen                                           2   (2)
+_toupper                                          2   (2)
+
+Stack size: 171
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _CLK_AdjustHSICalibrationValue: (2)
+
+   2 > _CLK_BEEPClockConfig: (2)
+
+   3 > _CLK_CCOConfig: (4)
+
+   4 > _CLK_ClearFlag: (2)
+
+   5 > _CLK_ClearITPendingBit: (2)
+
+   6 > _CLK_ClockSecuritySystemEnable: (2)
+
+   7 > _CLK_ClockSecuritySytemDeglitchCmd: (2)
+
+   8 > _CLK_DeInit: (2)
+
+   9 > _CLK_GetFlagStatus: (5)
+
+  10 > _CLK_GetITStatus: (4)
+
+  11 > _CLK_GetSYSCLKSource: (2)
+
+  12 > _CLK_HSEConfig: (2)
+
+  13 > _CLK_HSICmd: (2)
+
+  14 > _CLK_HaltConfig: (4)
+
+  15 > _CLK_ITConfig: (4)
+
+  16 > _CLK_LSEClockSecuritySystemEnable: (2)
+
+  17 > _CLK_LSEConfig: (2)
+
+  18 > _CLK_LSICmd: (2)
+
+  19 > _CLK_MainRegulatorCmd: (2)
+
+  20 > _CLK_RTCCLKSwitchOnLSEFailureEnable: (2)
+
+  21 > _CLK_RTCClockConfig: (4)
+
+  22 > _CLK_SYSCLKDivConfig: (2)
+
+  23 > _CLK_SYSCLKSourceConfig: (2)
+
+  24 > _CLK_SYSCLKSourceSwitchCmd: (2)
+
+  25 > _Delay: (4)
+
+  26 > _GPIO_DeInit: (2)
+
+  27 > _GPIO_ExternalPullUpConfig: (6)
+
+  28 > _GPIO_ReadInputData: (2)
+
+  29 > _GPIO_ReadInputDataBit: (5)
+
+  30 > _GPIO_ReadOutputData: (2)
+
+  31 > _GPIO_ReadOutputDataBit: (5)
+
+  32 > _GPIO_ResetBits: (5)
+
+  33 > _GPIO_SetBits: (5)
+
+  34 > _GPIO_ToggleBits: (5)
+
+  35 > _GPIO_Write: (5)
+
+  36 > _GPIO_WriteBit: (6)
+
+  37 > _USART_ClearFlag: (6)
+
+  38 > _USART_ClearITPendingBit: (7)
+
+  39 > _USART_ClockInit: (8)
+
+  40 > _USART_DMACmd: (6)
+
+  41 > _USART_DeInit: (2)
+
+  42 > _USART_GetITStatus: (9)
+
+  43 > _USART_HalfDuplexCmd: (5)
+
+  44 > _USART_ITConfig: (9)
+
+  45 > _USART_IrDACmd: (5)
+
+  46 > _USART_IrDAConfig: (5)
+
+  47 > _USART_ReceiveData9: (6)
+
+  48 > _USART_ReceiverWakeUpCmd: (5)
+
+  49 > _USART_SendBreak: (2)
+
+  50 > _USART_SendData9: (6)
+
+  51 > _USART_SetAddress: (5)
+
+  52 > _USART_SetGuardTime: (5)
+
+  53 > _USART_SetPrescaler: (5)
+
+  54 > _USART_SmartCardCmd: (5)
+
+  55 > _USART_SmartCardNACKCmd: (5)
+
+  56 > _USART_WakeUpConfig: (5)
+
+  57 > __stext: (0)
+
+  58 > _main: (64)
+  59      + _CLK_PeripheralClockConfig: (5)
+  60      + _GPIO_Init: (6)
+  61      + _Get_ChipID: (2)
+  62      + _USART_Cmd: (5)
+  63      + _USART_Init: (16)
+  64      |    + _CLK_GetClockFreq: (11)
+          | 
+  65      + _USART_SendStr: (4)
+  66      |    + _USART_GetFlagStatus: (7)
+  67      |    + _USART_SendData8: (5)
+          | 
+  68      + _sprintf: (14)
+  69      |    + __print: (51)
+  70      |    |    + L11__cvtup: (6)
+  71      |    |    |    + _toupper: (2)
+          |    |    | 
+  72      |    |    + L31__putbuf: (9)
+  73      |    |    |    + _putchar: (3)
+          |    |    | 
+  74      |    |    + L7__gnum: (16)
+  75      |    |    + __itob: (15)
+  76      |    |    |    + __udiv: (4)
+          |    |    | 
+  77      |    |    + __ltob: (17)
+  78      |    |    |    + __uldiv: (6)
+          |    |    | 
+  79      |    |    + _strlen: (2)
+          |    | 
+          | 
+       
+  80 > f_ADC1_COMP_IRQHandler: (6)
+
+  81 > f_DMA1_CHANNEL0_1_IRQHandler: (6)
+
+  82 > f_DMA1_CHANNEL2_3_IRQHandler: (6)
+
+  83 > f_EXTI0_IRQHandler: (6)
+
+  84 > f_EXTI1_IRQHandler: (6)
+
+  85 > f_EXTI2_IRQHandler: (6)
+
+  86 > f_EXTI3_IRQHandler: (6)
+
+  87 > f_EXTI4_IRQHandler: (6)
+
+  88 > f_EXTI5_IRQHandler: (6)
+
+  89 > f_EXTI6_IRQHandler: (6)
+
+  90 > f_EXTI7_IRQHandler: (6)
+
+  91 > f_EXTIB_G_IRQHandler: (6)
+
+  92 > f_EXTID_H_IRQHandler: (6)
+
+  93 > f_EXTIE_F_PVD_IRQHandler: (6)
+
+  94 > f_FLASH_IRQHandler: (6)
+
+  95 > f_I2C1_SPI2_IRQHandler: (6)
+
+  96 > f_LCD_AES_IRQHandler: (6)
+
+  97 > f_NonHandledInterrupt: (6)
+
+  98 > f_RTC_CSSLSE_IRQHandler: (6)
+
+  99 > f_SPI1_IRQHandler: (6)
+
+ 100 > f_SWITCH_CSS_BREAK_DAC_IRQHandler: (6)
+
+ 101 > f_TIM1_CC_IRQHandler: (6)
+
+ 102 > f_TIM1_UPD_OVF_TRG_COM_IRQHandler: (6)
+
+ 103 > f_TIM2_CC_USART2_RX_IRQHandler: (6)
+
+ 104 > f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler: (6)
+
+ 105 > f_TIM3_CC_USART3_RX_IRQHandler: (6)
+
+ 106 > f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler: (6)
+
+ 107 > f_TIM4_UPD_OVF_TRG_IRQHandler: (6)
+
+ 108 > f_TRAP_IRQHandler: (6)
+
+ 109 > f_USART1_RX_TIM5_CC_IRQHandler: (12)
+ 110      + _USART_GetFlagStatus --> 66
+ 111      + _USART_ReceiveData8: (2)
+ 112      + _USART_SendData8 --> 67
+       
+ 113 > f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+ 114   L11__cvtup --> 70
+
+ 115   L31__putbuf --> 72
+
+ 116   L7__gnum --> 74
+
+ 117   _CLK_GetClockFreq --> 64
+
+ 118   _CLK_PeripheralClockConfig --> 59
+
+ 119   _GPIO_Init --> 60
+
+ 120   _Get_ChipID --> 61
+
+ 121   _USART_Cmd --> 62
+
+ 122   _USART_GetFlagStatus --> 66
+
+ 123   _USART_Init --> 63
+
+ 124   _USART_ReceiveData8 --> 111
+
+ 125   _USART_SendData8 --> 67
+
+ 126   _USART_SendStr --> 65
+
+ 127   __itob --> 75
+
+ 128   __ltob --> 77
+
+ 129   __print --> 69
+
+ 130   __udiv --> 76
+
+ 131   __uldiv --> 78
+
+ 132   _putchar --> 73
+
+ 133   _sprintf --> 68
+
+ 134   _strlen --> 79
+
+ 135   _toupper --> 71
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_CLK_AdjustHSICalibrationValue                00008312   defined in Debug\stm8l15x_clk.o section .text
+_CLK_BEEPClockConfig                          0000840e   defined in Debug\stm8l15x_clk.o section .text
+_CLK_CCOConfig                                0000835d   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClearFlag                                000085c5   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClearITPendingBit                        0000860f   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClockSecuritySystemEnable                0000834a   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClockSecuritySytemDeglitchCmd            0000834f   defined in Debug\stm8l15x_clk.o section .text
+_CLK_DeInit                                   000082c3   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetClockFreq                             0000836e   defined in Debug\stm8l15x_clk.o section .text
+                                                         used in Debug\stm8l15x_usart.o
+_CLK_GetFlagStatus                            00008530   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetITStatus                              000085ca   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetSYSCLKSource                          0000836a   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HSEConfig                                0000832c   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HSICmd                                   00008304   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HaltConfig                               000084c9   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ITConfig                                 000084f0   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSEClockSecuritySystemEnable             000084bf   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSEConfig                                0000833b   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSICmd                                   0000831e   defined in Debug\stm8l15x_clk.o section .text
+_CLK_MainRegulatorCmd                         000084e2   defined in Debug\stm8l15x_clk.o section .text
+_CLK_PeripheralClockConfig                    00008412   defined in Debug\stm8l15x_clk.o section .text
+                                                         used in Debug\main.o
+_CLK_RTCCLKSwitchOnLSEFailureEnable           000084c4   defined in Debug\stm8l15x_clk.o section .text
+_CLK_RTCClockConfig                           00008405   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKDivConfig                          000083f3   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKSourceConfig                       00008366   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKSourceSwitchCmd                    000083f7   defined in Debug\stm8l15x_clk.o section .text
+_Delay                                        0000816a   defined in Debug\main.o section .text
+_GPIO_DeInit                                  00008620   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ExternalPullUpConfig                    00008690   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Init                                    00008628   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\main.o
+_GPIO_ReadInputData                           000086da   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadInputDataBit                        000086df   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputData                          000086dd   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputDataBit                       000086e6   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ResetBits                               000086cb   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_SetBits                                 000086c4   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ToggleBits                              000086d3   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Write                                   000086a8   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_WriteBit                                000086b0   defined in Debug\stm8l15x_gpio.o section .text
+_Get_ChipID                                   000081a4   defined in Debug\main.o section .text
+_HexTable                                     ********   *** removed from Debug\main.o ***
+_SYSDivFactor                                 000080b4   defined in Debug\stm8l15x_clk.o section .const
+_USART_ClearFlag                              00008974   defined in Debug\stm8l15x_usart.o section .text
+_USART_ClearITPendingBit                      00008a1b   defined in Debug\stm8l15x_usart.o section .text
+_USART_ClockInit                              0000876f   defined in Debug\stm8l15x_usart.o section .text
+_USART_Cmd                                    00008796   defined in Debug\stm8l15x_usart.o section .text
+                                                         used in Debug\main.o
+_USART_DMACmd                                 000088ba   defined in Debug\stm8l15x_usart.o section .text
+_USART_DeInit                                 000086ec   defined in Debug\stm8l15x_usart.o section .text
+_USART_GetFlagStatus                          00008945   defined in Debug\stm8l15x_usart.o section .text
+                                                         used in Debug\main.o
+                                                                 Debug\stm8l15x_it.o
+_USART_GetITStatus                            0000897d   defined in Debug\stm8l15x_usart.o section .text
+_USART_HalfDuplexCmd                          0000883e   defined in Debug\stm8l15x_usart.o section .text
+_USART_ITConfig                               000088d2   defined in Debug\stm8l15x_usart.o section .text
+_USART_Init                                   000086fc   defined in Debug\stm8l15x_usart.o section .text
+                                                         used in Debug\main.o
+_USART_IrDACmd                                000088a3   defined in Debug\stm8l15x_usart.o section .text
+_USART_IrDAConfig                             0000888c   defined in Debug\stm8l15x_usart.o section .text
+_USART_ReceiveData8                           000087bd   defined in Debug\stm8l15x_usart.o section .text
+                                                         used in Debug\stm8l15x_it.o
+_USART_ReceiveData9                           000087c0   defined in Debug\stm8l15x_usart.o section .text
+_USART_ReceiverWakeUpCmd                      00008809   defined in Debug\stm8l15x_usart.o section .text
+_USART_SendBreak                              000087b6   defined in Debug\stm8l15x_usart.o section .text
+_USART_SendData8                              000087e3   defined in Debug\stm8l15x_usart.o section .text
+                                                         used in Debug\main.o
+                                                                 Debug\stm8l15x_it.o
+_USART_SendData9                              000087ec   defined in Debug\stm8l15x_usart.o section .text
+_USART_SendStr                                0000817a   defined in Debug\main.o section .text
+_USART_SetAddress                             00008820   defined in Debug\stm8l15x_usart.o section .text
+_USART_SetGuardTime                           00008883   defined in Debug\stm8l15x_usart.o section .text
+_USART_SetPrescaler                           000087ad   defined in Debug\stm8l15x_usart.o section .text
+_USART_SmartCardCmd                           00008855   defined in Debug\stm8l15x_usart.o section .text
+_USART_SmartCardNACKCmd                       0000886c   defined in Debug\stm8l15x_usart.o section .text
+_USART_WakeUpConfig                           0000882f   defined in Debug\stm8l15x_usart.o section .text
+__endmem                                      000005fe   defined in command file
+                                                         *** not used ***
+__endzp                                       0000000b   defined in command file section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__idesc__                                     00008117   defined in linker section .init
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__itob                                        00008f7e   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+__ltob                                        00008ff8   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+__memory                                      00000100   defined in command file section .bss
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__print                                       00008b4b   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)sprnt.o
+__stack                                       000007ff   defined in command file
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__startmem                                    00000100   defined in command file section .bss
+                                                         *** not used ***
+__stext                                       0000811a   defined in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+__udiv                                        0000908e   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)idiv0.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+__uldiv                                       00009099   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+__vectab                                      00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_a                                            00000000   defined in Debug\stm8l15x_it.o section .ubsct
+_exit                                         00008168   defined in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_main                                         000081e0   defined in Debug\main.o section .text
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+_putchar                                      000090b4   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)putchr.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+_sprintf                                      00008a3e   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)sprnt.o section .text
+                                                         used in Debug\main.o
+_strlen                                       000090b7   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strlen0.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+_toupper                                      000090c3   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)toup0.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+c_divsl                                       000090ce   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                                         *** not used ***
+c_divul                                       000090e5   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o
+c_imul                                        000091b9   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+c_lgneg                                       000091da   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lneg                                        000091ed   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lreg                                        00000001   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                                         used in Debug\stm8l15x_clk.o
+                                                                 Debug\stm8l15x_usart.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o
+c_ltor                                        00009202   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+                                                                 Debug\stm8l15x_usart.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_ludv                                        00009214   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+                                                                 Debug\stm8l15x_usart.o
+c_lursh                                       00009228   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o section .text
+                                                         used in Debug\stm8l15x_usart.o
+c_lzmp                                        00009237   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+c_rtol                                        0000924a   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+                                                                 Debug\stm8l15x_usart.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_x                                           00000005   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                                 Debug\stm8l15x_it.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strlen0.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o
+c_y                                           00000008   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                                 Debug\stm8l15x_it.o
+f_ADC1_COMP_IRQHandler                        00008279   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL0_1_IRQHandler                  00008269   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL2_3_IRQHandler                  0000826a   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI0_IRQHandler                            0000826f   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI1_IRQHandler                            00008270   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI2_IRQHandler                            00008271   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI3_IRQHandler                            00008272   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI4_IRQHandler                            00008273   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI5_IRQHandler                            00008274   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI6_IRQHandler                            00008275   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI7_IRQHandler                            00008276   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIB_G_IRQHandler                          0000826d   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTID_H_IRQHandler                          0000826e   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIE_F_PVD_IRQHandler                      0000826c   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_FLASH_IRQHandler                            00008268   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_I2C1_SPI2_IRQHandler                        000082c2   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_LCD_AES_IRQHandler                          00008277   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt                         00008266   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_RTC_CSSLSE_IRQHandler                       0000826b   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SPI1_IRQHandler                             00008281   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SWITCH_CSS_BREAK_DAC_IRQHandler             00008278   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_CC_IRQHandler                          0000827f   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler             0000827e   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_CC_USART2_RX_IRQHandler                0000827b   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler   0000827a   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_CC_USART3_RX_IRQHandler                0000827d   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler   0000827c   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_TRG_IRQHandler                 00008280   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                             00008267   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_RX_TIM5_CC_IRQHandler                00008283   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler   00008282   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o

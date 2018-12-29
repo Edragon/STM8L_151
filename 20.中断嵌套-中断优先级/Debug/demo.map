@@ -1,0 +1,416 @@
+
+Map of Debug\demo.sm8 from link file Debug\demo.lkf - Thu Aug 09 16:56:17 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000080f4 length   116 segment .const
+start 000080f7 end 000088cc length  2005 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 00000006 length     6 segment .ubsct
+start 00000006 end 00000006 length     0 segment .bit
+start 00000006 end 00000006 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 000001a1 length   417 segment .info.
+start 00000000 end 00002901 length 10497 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000080f4 end 000080f7 length     3 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
+start 000080f7 end 00008147 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\main.o:
+start 00008147 end 000081b7 length   112 section .text
+start 00000000 end 00000105 length   261 section .debug
+start 00000034 end 0000009f length   107 section .info.
+
+Debug\stm8l15x_it.o:
+start 000081b7 end 00008353 length   412 section .text
+start 00000105 end 00000a4a length  2373 section .debug
+start 0000009f end 00000111 length   114 section .info.
+
+Debug\stm8l15x_exti.o:
+start 00008353 end 00008681 length   814 section .text
+start 00000a4a end 000015a8 length  2910 section .debug
+
+Debug\stm8l15x_gpio.o:
+start 00008681 end 0000874d length   204 section .text
+start 000015a8 end 000020e9 length  2881 section .debug
+
+Debug\stm8l15x_itc.o:
+start 0000874d end 000088cc length   383 section .text
+start 000020e9 end 000027db length  1778 section .debug
+start 00008080 end 000080f4 length   116 section .const
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000000 end 00000003 length     3 section .ubsct
+start 00000111 end 00000140 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000003 end 00000006 length     3 section .ubsct
+start 00000140 end 0000016f length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 000027db end 00002901 length   294 section .debug
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+_Delay                                            4   (4)
+_main                                        >    8   (2)
+
+Debug\stm8l15x_exti.o:
+_EXTI_ClearITPendingBit                           6   (6)
+_EXTI_DeInit                                      2   (2)
+_EXTI_GetITStatus                            >    5   (5)
+_EXTI_GetPinSensitivity                      >    3   (3)
+_EXTI_GetPortSensitivity                     >    4   (4)
+_EXTI_SelectPort                             >    3   (3)
+_EXTI_SetHalfPortSelection                   >    4   (4)
+_EXTI_SetPinSensitivity                           4   (4)
+_EXTI_SetPortSensitivity                     >    4   (4)
+
+Debug\stm8l15x_gpio.o:
+_GPIO_DeInit                                 >    2   (2)
+_GPIO_ExternalPullUpConfig                   >    6   (6)
+_GPIO_Init                                        6   (6)
+_GPIO_ReadInputData                          >    2   (2)
+_GPIO_ReadInputDataBit                            5   (5)
+_GPIO_ReadOutputData                         >    2   (2)
+_GPIO_ReadOutputDataBit                      >    5   (5)
+_GPIO_ResetBits                                   5   (5)
+_GPIO_SetBits                                     5   (5)
+_GPIO_ToggleBits                             >    5   (5)
+_GPIO_Write                                  >    5   (5)
+_GPIO_WriteBit                               >    6   (6)
+
+Debug\stm8l15x_it.o:
+f_ADC1_COMP_IRQHandler                       >    6   (6)
+f_DMA1_CHANNEL0_1_IRQHandler                 >    6   (6)
+f_DMA1_CHANNEL2_3_IRQHandler                 >    6   (6)
+f_EXTI0_IRQHandler                           >    6   (6)
+f_EXTI1_IRQHandler                           >    6   (6)
+f_EXTI2_IRQHandler                           >   18   (12)
+f_EXTI3_IRQHandler                           >   18   (12)
+f_EXTI4_IRQHandler                           >   18   (12)
+f_EXTI5_IRQHandler                           >    6   (6)
+f_EXTI6_IRQHandler                           >    6   (6)
+f_EXTI7_IRQHandler                           >    6   (6)
+f_EXTIB_G_IRQHandler                         >    6   (6)
+f_EXTID_H_IRQHandler                         >    6   (6)
+f_EXTIE_F_PVD_IRQHandler                     >    6   (6)
+f_FLASH_IRQHandler                           >    6   (6)
+f_I2C1_SPI2_IRQHandler                       >    6   (6)
+f_LCD_AES_IRQHandler                         >    6   (6)
+f_NonHandledInterrupt                        >    6   (6)
+f_RTC_CSSLSE_IRQHandler                      >    6   (6)
+f_SPI1_IRQHandler                            >    6   (6)
+f_SWITCH_CSS_BREAK_DAC_IRQHandler            >    6   (6)
+f_TIM1_CC_IRQHandler                         >    6   (6)
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler            >    6   (6)
+f_TIM2_CC_USART2_RX_IRQHandler               >    6   (6)
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler  >    6   (6)
+f_TIM3_CC_USART3_RX_IRQHandler               >    6   (6)
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler  >    6   (6)
+f_TIM4_UPD_OVF_TRG_IRQHandler                >    6   (6)
+f_TRAP_IRQHandler                            >    6   (6)
+f_USART1_RX_TIM5_CC_IRQHandler               >    6   (6)
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+
+Debug\stm8l15x_itc.o:
+_ITC_DeInit                                  >    2   (2)
+_ITC_GetCPUCC                                     2   (2)
+_ITC_GetSoftIntStatus                        >    4   (2)
+_ITC_GetSoftwarePriority                     >    5   (5)
+_ITC_SetSoftwarePriority                          6   (6)
+
+Stack size: 26
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _EXTI_GetITStatus: (5)
+
+   2 > _EXTI_GetPinSensitivity: (3)
+
+   3 > _EXTI_GetPortSensitivity: (4)
+
+   4 > _EXTI_SelectPort: (3)
+
+   5 > _EXTI_SetHalfPortSelection: (4)
+
+   6 > _EXTI_SetPortSensitivity: (4)
+
+   7 > _GPIO_DeInit: (2)
+
+   8 > _GPIO_ExternalPullUpConfig: (6)
+
+   9 > _GPIO_ReadInputData: (2)
+
+  10 > _GPIO_ReadOutputData: (2)
+
+  11 > _GPIO_ReadOutputDataBit: (5)
+
+  12 > _GPIO_ToggleBits: (5)
+
+  13 > _GPIO_Write: (5)
+
+  14 > _GPIO_WriteBit: (6)
+
+  15 > _ITC_DeInit: (2)
+
+  16 > _ITC_GetSoftIntStatus: (2)
+  17      + _ITC_GetCPUCC: (2)
+       
+  18 > _ITC_GetSoftwarePriority: (5)
+
+  19 > __stext: (0)
+
+  20 > _main: (2)
+  21      + _EXTI_DeInit: (2)
+  22      + _EXTI_SetPinSensitivity: (4)
+  23      + _GPIO_Init: (6)
+  24      + _ITC_SetSoftwarePriority: (6)
+       
+  25 > f_ADC1_COMP_IRQHandler: (6)
+
+  26 > f_DMA1_CHANNEL0_1_IRQHandler: (6)
+
+  27 > f_DMA1_CHANNEL2_3_IRQHandler: (6)
+
+  28 > f_EXTI0_IRQHandler: (6)
+
+  29 > f_EXTI1_IRQHandler: (6)
+
+  30 > f_EXTI2_IRQHandler: (12)
+  31      + _Delay: (4)
+  32      + _EXTI_ClearITPendingBit: (6)
+  33      + _GPIO_ReadInputDataBit: (5)
+  34      + _GPIO_ResetBits: (5)
+  35      + _GPIO_SetBits: (5)
+       
+  36 > f_EXTI3_IRQHandler: (12)
+  37      + _Delay --> 31
+  38      + _EXTI_ClearITPendingBit --> 32
+  39      + _GPIO_ReadInputDataBit --> 33
+  40      + _GPIO_ResetBits --> 34
+  41      + _GPIO_SetBits --> 35
+       
+  42 > f_EXTI4_IRQHandler: (12)
+  43      + _Delay --> 31
+  44      + _EXTI_ClearITPendingBit --> 32
+  45      + _GPIO_ReadInputDataBit --> 33
+  46      + _GPIO_ResetBits --> 34
+  47      + _GPIO_SetBits --> 35
+       
+  48 > f_EXTI5_IRQHandler: (6)
+
+  49 > f_EXTI6_IRQHandler: (6)
+
+  50 > f_EXTI7_IRQHandler: (6)
+
+  51 > f_EXTIB_G_IRQHandler: (6)
+
+  52 > f_EXTID_H_IRQHandler: (6)
+
+  53 > f_EXTIE_F_PVD_IRQHandler: (6)
+
+  54 > f_FLASH_IRQHandler: (6)
+
+  55 > f_I2C1_SPI2_IRQHandler: (6)
+
+  56 > f_LCD_AES_IRQHandler: (6)
+
+  57 > f_NonHandledInterrupt: (6)
+
+  58 > f_RTC_CSSLSE_IRQHandler: (6)
+
+  59 > f_SPI1_IRQHandler: (6)
+
+  60 > f_SWITCH_CSS_BREAK_DAC_IRQHandler: (6)
+
+  61 > f_TIM1_CC_IRQHandler: (6)
+
+  62 > f_TIM1_UPD_OVF_TRG_COM_IRQHandler: (6)
+
+  63 > f_TIM2_CC_USART2_RX_IRQHandler: (6)
+
+  64 > f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler: (6)
+
+  65 > f_TIM3_CC_USART3_RX_IRQHandler: (6)
+
+  66 > f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler: (6)
+
+  67 > f_TIM4_UPD_OVF_TRG_IRQHandler: (6)
+
+  68 > f_TRAP_IRQHandler: (6)
+
+  69 > f_USART1_RX_TIM5_CC_IRQHandler: (6)
+
+  70 > f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+  71   _Delay --> 31
+
+  72   _EXTI_ClearITPendingBit --> 32
+
+  73   _EXTI_DeInit --> 21
+
+  74   _EXTI_SetPinSensitivity --> 22
+
+  75   _GPIO_Init --> 23
+
+  76   _GPIO_ReadInputDataBit --> 33
+
+  77   _GPIO_ResetBits --> 34
+
+  78   _GPIO_SetBits --> 35
+
+  79   _ITC_GetCPUCC --> 17
+
+  80   _ITC_SetSoftwarePriority --> 24
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_Delay                                        00008147   defined in Debug\main.o section .text
+                                                         used in Debug\stm8l15x_it.o
+_EXTI_ClearITPendingBit                       00008656   defined in Debug\stm8l15x_exti.o section .text
+                                                         used in Debug\stm8l15x_it.o
+_EXTI_DeInit                                  00008353   defined in Debug\stm8l15x_exti.o section .text
+                                                         used in Debug\main.o
+_EXTI_GetITStatus                             0000862d   defined in Debug\stm8l15x_exti.o section .text
+_EXTI_GetPinSensitivity                       00008576   defined in Debug\stm8l15x_exti.o section .text
+_EXTI_GetPortSensitivity                      000085f9   defined in Debug\stm8l15x_exti.o section .text
+_EXTI_SelectPort                              0000849e   defined in Debug\stm8l15x_exti.o section .text
+_EXTI_SetHalfPortSelection                    000084de   defined in Debug\stm8l15x_exti.o section .text
+_EXTI_SetPinSensitivity                       00008374   defined in Debug\stm8l15x_exti.o section .text
+                                                         used in Debug\main.o
+_EXTI_SetPortSensitivity                      0000851a   defined in Debug\stm8l15x_exti.o section .text
+_GPIO_DeInit                                  00008681   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ExternalPullUpConfig                    000086f1   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Init                                    00008689   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\main.o
+_GPIO_ReadInputData                           0000873b   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadInputDataBit                        00008740   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\stm8l15x_it.o
+_GPIO_ReadOutputData                          0000873e   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputDataBit                       00008747   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ResetBits                               0000872c   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\stm8l15x_it.o
+_GPIO_SetBits                                 00008725   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\stm8l15x_it.o
+_GPIO_ToggleBits                              00008734   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Write                                   00008709   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_WriteBit                                00008711   defined in Debug\stm8l15x_gpio.o section .text
+_ITC_DeInit                                   00008750   defined in Debug\stm8l15x_itc.o section .text
+_ITC_GetCPUCC                                 0000874d   defined in Debug\stm8l15x_itc.o section .text
+_ITC_GetSoftIntStatus                         00008771   defined in Debug\stm8l15x_itc.o section .text
+_ITC_GetSoftwarePriority                      00008776   defined in Debug\stm8l15x_itc.o section .text
+_ITC_SetSoftwarePriority                      000087fc   defined in Debug\stm8l15x_itc.o section .text
+                                                         used in Debug\main.o
+__endmem                                      000005fe   defined in command file
+                                                         *** not used ***
+__endzp                                       00000006   defined in command file section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__idesc__                                     000080f4   defined in linker section .init
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__memory                                      00000100   defined in command file section .bss
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__stack                                       000007ff   defined in command file
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__startmem                                    00000100   defined in command file section .bss
+                                                         *** not used ***
+__stext                                       000080f7   defined in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+__vectab                                      00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_exit                                         00008145   defined in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_main                                         00008157   defined in Debug\main.o section .text
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+c_x                                           00000000   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                                 Debug\stm8l15x_it.o
+c_y                                           00000003   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                                 Debug\stm8l15x_it.o
+f_ADC1_COMP_IRQHandler                        00008347   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL0_1_IRQHandler                  000081ba   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL2_3_IRQHandler                  000081bb   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI0_IRQHandler                            000081c0   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI1_IRQHandler                            000081c1   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI2_IRQHandler                            000081c2   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI3_IRQHandler                            00008242   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI4_IRQHandler                            000082c2   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI5_IRQHandler                            00008342   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI6_IRQHandler                            00008343   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI7_IRQHandler                            00008344   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIB_G_IRQHandler                          000081be   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTID_H_IRQHandler                          000081bf   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIE_F_PVD_IRQHandler                      000081bd   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_FLASH_IRQHandler                            000081b9   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_I2C1_SPI2_IRQHandler                        00008352   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_LCD_AES_IRQHandler                          00008345   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt                         000081b7   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_RTC_CSSLSE_IRQHandler                       000081bc   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SPI1_IRQHandler                             0000834f   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SWITCH_CSS_BREAK_DAC_IRQHandler             00008346   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_CC_IRQHandler                          0000834d   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler             0000834c   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_CC_USART2_RX_IRQHandler                00008349   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler   00008348   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_CC_USART3_RX_IRQHandler                0000834b   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler   0000834a   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_TRG_IRQHandler                 0000834e   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                             000081b8   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_RX_TIM5_CC_IRQHandler                00008351   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler   00008350   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o

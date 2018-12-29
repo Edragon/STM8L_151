@@ -1,0 +1,918 @@
+
+Map of Debug\demo.sm8 from link file Debug\demo.lkf - Thu Aug 09 16:38:34 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008085 length     5 segment .const
+start 0000809e end 0000932f length  4753 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000000 end 00000011 length    17 segment .bsct, initialized
+start 0000808d end 0000809e length    17 segment .bsct, from
+start 00000011 end 00000038 length    39 segment .ubsct
+start 00000038 end 00000038 length     0 segment .bit
+start 00000038 end 00000038 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000672 length  1650 segment .info.
+start 00000000 end 0000a427 length 42023 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008085 end 0000808d length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
+start 0000809e end 000080ee length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000011 end 00000011 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\1621.o:
+start 000080ee end 000082c8 length   474 section .text
+start 00000000 end 00000011 length    17 section .bsct
+start 00000011 end 0000001b length    10 section .ubsct
+start 00000000 end 000006a2 length  1698 section .debug
+start 00000034 end 0000009f length   107 section .info.
+
+Debug\main.o:
+start 000082c8 end 000083ab length   227 section .text
+start 0000001b end 0000002e length    19 section .ubsct
+start 000006a2 end 00000e98 length  2038 section .debug
+start 0000009f end 0000010a length   107 section .info.
+
+Debug\stm8l15x_it.o:
+start 000083ab end 000083ca length    31 section .text
+start 00000e98 end 000017dd length  2373 section .debug
+start 0000010a end 0000017c length   114 section .info.
+
+Debug\stm8l15x_adc.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 000017dd end 00003717 length  7994 section .debug
+start 0000017c end 000001ef length   115 section .info.
+
+Debug\stm8l15x_clk.o:
+start 000083ca end 00008727 length   861 section .text
+start 00003717 end 000050f6 length  6623 section .debug
+start 000001ef end 00000262 length   115 section .info.
+start 00008080 end 00008085 length     5 section .const
+
+Debug\stm8l15x_gpio.o:
+start 00008727 end 000087f3 length   204 section .text
+start 000050f6 end 00005c37 length  2881 section .debug
+start 00000262 end 000002d6 length   116 section .info.
+
+Debug\stm8l15x_lcd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00005c37 end 0000745e length  6183 section .debug
+start 000002d6 end 00000349 length   115 section .info.
+
+Debug\stm8l15x_rtc.o:
+start 000087f3 end 000091bc length  2505 section .text
+start 0000745e end 0000a301 length 11939 section .debug
+start 00000349 end 000003bc length   115 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o:
+start 000091bc end 000091dd length    33 section .text
+start 000003bc end 000003eb length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 0000002e end 00000032 length     4 section .ubsct
+start 000003eb end 0000041a length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 000091dd end 000091ef length    18 section .text
+start 0000041a end 00000449 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o:
+start 000091ef end 00009203 length    20 section .text
+start 00000449 end 00000479 length    48 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 00009203 end 000092ee length   235 section .text
+start 00000479 end 000004a8 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 000092ee end 00009301 length    19 section .text
+start 000004a8 end 000004d8 length    48 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 00009301 end 00009316 length    21 section .text
+start 000004d8 end 00000507 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 00009316 end 00009328 length    18 section .text
+start 00000507 end 00000536 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o:
+start 00009328 end 0000932f length     7 section .text
+start 00000536 end 00000566 length    48 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000032 end 00000035 length     3 section .ubsct
+start 00000566 end 00000595 length    47 section .info.
+
+(D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000035 end 00000038 length     3 section .ubsct
+start 00000595 end 000005c4 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 0000a301 end 0000a427 length   294 section .debug
+start 000005c4 end 00000640 length   124 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\1621.o:
+_Display                                         19   (2)
+_Display_lcd_dot                                 19   (2)
+_Ht1621WrAllData                             >   20   (7)
+_Ht1621WrCmd                                     16   (3)
+_Ht1621WrOneData                                 17   (4)
+_Ht1621Wr_Data                                   13   (5)
+_Ht1621_CS_0                                      8   (2)
+_Ht1621_CS_1                                      8   (2)
+_Ht1621_DAT_0                                     8   (2)
+_Ht1621_DAT_1                                     8   (2)
+_Ht1621_GND_0                                     8   (2)
+_Ht1621_GND_1                                >    8   (2)
+_Ht1621_Init                                     18   (2)
+_Ht1621_VCC_0                                >    8   (2)
+_Ht1621_VCC_1                                     8   (2)
+_Ht1621_WR_0                                      8   (2)
+_Ht1621_WR_1                                      8   (2)
+_data_convertor                                   6   (6)
+
+Debug\main.o:
+_Calendar_Init                                   16   (2)
+_Delay                                            4   (4)
+_main                                        >   25   (6)
+
+Debug\stm8l15x_clk.o:
+_CLK_AdjustHSICalibrationValue               >    2   (2)
+_CLK_BEEPClockConfig                         >    2   (2)
+_CLK_CCOConfig                               >    4   (4)
+_CLK_ClearFlag                               >    2   (2)
+_CLK_ClearITPendingBit                       >    2   (2)
+_CLK_ClockSecuritySystemEnable               >    2   (2)
+_CLK_ClockSecuritySytemDeglitchCmd           >    2   (2)
+_CLK_DeInit                                  >    2   (2)
+_CLK_GetClockFreq                            >   25   (11)
+_CLK_GetFlagStatus                           >    5   (5)
+_CLK_GetITStatus                             >    4   (4)
+_CLK_GetSYSCLKSource                         >    2   (2)
+_CLK_HSEConfig                               >    2   (2)
+_CLK_HSICmd                                  >    2   (2)
+_CLK_HaltConfig                              >    4   (4)
+_CLK_ITConfig                                >    4   (4)
+_CLK_LSEClockSecuritySystemEnable            >    2   (2)
+_CLK_LSEConfig                               >    2   (2)
+_CLK_LSICmd                                  >    2   (2)
+_CLK_MainRegulatorCmd                        >    2   (2)
+_CLK_PeripheralClockConfig                        5   (5)
+_CLK_RTCCLKSwitchOnLSEFailureEnable          >    2   (2)
+_CLK_RTCClockConfig                               4   (4)
+_CLK_SYSCLKDivConfig                         >    2   (2)
+_CLK_SYSCLKSourceConfig                      >    2   (2)
+_CLK_SYSCLKSourceSwitchCmd                   >    2   (2)
+
+Debug\stm8l15x_gpio.o:
+_GPIO_DeInit                                 >    2   (2)
+_GPIO_ExternalPullUpConfig                   >    6   (6)
+_GPIO_Init                                        6   (6)
+_GPIO_ReadInputData                          >    2   (2)
+_GPIO_ReadInputDataBit                       >    5   (5)
+_GPIO_ReadOutputData                         >    2   (2)
+_GPIO_ReadOutputDataBit                      >    5   (5)
+_GPIO_ResetBits                              >    5   (5)
+_GPIO_SetBits                                >    5   (5)
+_GPIO_ToggleBits                             >    5   (5)
+_GPIO_Write                                  >    5   (5)
+_GPIO_WriteBit                               >    6   (6)
+
+Debug\stm8l15x_it.o:
+f_ADC1_COMP_IRQHandler                       >    6   (6)
+f_DMA1_CHANNEL0_1_IRQHandler                 >    6   (6)
+f_DMA1_CHANNEL2_3_IRQHandler                 >    6   (6)
+f_EXTI0_IRQHandler                           >    6   (6)
+f_EXTI1_IRQHandler                           >    6   (6)
+f_EXTI2_IRQHandler                           >    6   (6)
+f_EXTI3_IRQHandler                           >    6   (6)
+f_EXTI4_IRQHandler                           >    6   (6)
+f_EXTI5_IRQHandler                           >    6   (6)
+f_EXTI6_IRQHandler                           >    6   (6)
+f_EXTI7_IRQHandler                           >    6   (6)
+f_EXTIB_G_IRQHandler                         >    6   (6)
+f_EXTID_H_IRQHandler                         >    6   (6)
+f_EXTIE_F_PVD_IRQHandler                     >    6   (6)
+f_FLASH_IRQHandler                           >    6   (6)
+f_I2C1_SPI2_IRQHandler                       >    6   (6)
+f_LCD_AES_IRQHandler                         >    6   (6)
+f_NonHandledInterrupt                        >    6   (6)
+f_RTC_CSSLSE_IRQHandler                      >    6   (6)
+f_SPI1_IRQHandler                            >    6   (6)
+f_SWITCH_CSS_BREAK_DAC_IRQHandler            >    6   (6)
+f_TIM1_CC_IRQHandler                         >    6   (6)
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler            >    6   (6)
+f_TIM2_CC_USART2_RX_IRQHandler               >    6   (6)
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler  >    6   (6)
+f_TIM3_CC_USART3_RX_IRQHandler               >    6   (6)
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler  >    6   (6)
+f_TIM4_UPD_OVF_TRG_IRQHandler                >    6   (6)
+f_TRAP_IRQHandler                            >    6   (6)
+f_USART1_RX_TIM5_CC_IRQHandler               >    6   (6)
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+
+Debug\stm8l15x_rtc.o:
+L3_ByteToBcd2                                     4   (4)
+L5_Bcd2ToByte                                     4   (4)
+_RTC_AlarmCmd                                     5   (5)
+_RTC_AlarmStructInit                              2   (2)
+_RTC_AlarmSubSecondConfig                    >    6   (6)
+_RTC_BypassShadowCmd                         >    2   (2)
+_RTC_CalibOutputCmd                          >    2   (2)
+_RTC_CalibOutputConfig                       >    2   (2)
+_RTC_ClearFlag                               >    4   (4)
+_RTC_ClearITPendingBit                       >    2   (2)
+_RTC_DateStructInit                               2   (2)
+_RTC_DayLightSavingConfig                    >    4   (4)
+_RTC_DeInit                                      12   (7)
+_RTC_EnterInitMode                                5   (5)
+_RTC_ExitInitMode                            >    2   (2)
+_RTC_GetAlarm                                >   13   (9)
+_RTC_GetDate                                 >   10   (6)
+_RTC_GetFlagStatus                           >    7   (7)
+_RTC_GetITStatus                             >    6   (6)
+_RTC_GetStoreOperation                       >    2   (2)
+_RTC_GetSubSecond                            >    8   (8)
+_RTC_GetTime                                     10   (6)
+_RTC_GetWakeUpCounter                        >    4   (4)
+_RTC_ITConfig                                     5   (5)
+_RTC_Init                                        10   (5)
+_RTC_OutputConfig                            >    4   (4)
+_RTC_RatioCmd                                >    2   (2)
+_RTC_SetAlarm                                    14   (10)
+_RTC_SetDate                                     12   (7)
+_RTC_SetTime                                     11   (6)
+_RTC_SetWakeUpCounter                        >    2   (2)
+_RTC_SmoothCalibConfig                       >    9   (9)
+_RTC_StructInit                              >    2   (2)
+_RTC_SynchroShiftConfig                      >    8   (8)
+_RTC_TamperCmd                               >    4   (4)
+_RTC_TamperFilterConfig                      >    3   (3)
+_RTC_TamperLevelConfig                       >    4   (4)
+_RTC_TamperPinsPrechargeDuration             >    3   (3)
+_RTC_TamperSamplingFreqConfig                >    3   (3)
+_RTC_TimeStructInit                               2   (2)
+_RTC_WaitForSynchro                               5   (5)
+_RTC_WakeUpClockConfig                       >    3   (3)
+_RTC_WakeUpCmd                               >    5   (5)
+_RTC_WriteProtectionCmd                      >    2   (2)
+
+Stack size: 31
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _CLK_AdjustHSICalibrationValue: (2)
+
+   2 > _CLK_BEEPClockConfig: (2)
+
+   3 > _CLK_CCOConfig: (4)
+
+   4 > _CLK_ClearFlag: (2)
+
+   5 > _CLK_ClearITPendingBit: (2)
+
+   6 > _CLK_ClockSecuritySystemEnable: (2)
+
+   7 > _CLK_ClockSecuritySytemDeglitchCmd: (2)
+
+   8 > _CLK_DeInit: (2)
+
+   9 > _CLK_GetClockFreq: (11)
+
+  10 > _CLK_GetFlagStatus: (5)
+
+  11 > _CLK_GetITStatus: (4)
+
+  12 > _CLK_GetSYSCLKSource: (2)
+
+  13 > _CLK_HSEConfig: (2)
+
+  14 > _CLK_HSICmd: (2)
+
+  15 > _CLK_HaltConfig: (4)
+
+  16 > _CLK_ITConfig: (4)
+
+  17 > _CLK_LSEClockSecuritySystemEnable: (2)
+
+  18 > _CLK_LSEConfig: (2)
+
+  19 > _CLK_LSICmd: (2)
+
+  20 > _CLK_MainRegulatorCmd: (2)
+
+  21 > _CLK_RTCCLKSwitchOnLSEFailureEnable: (2)
+
+  22 > _CLK_SYSCLKDivConfig: (2)
+
+  23 > _CLK_SYSCLKSourceConfig: (2)
+
+  24 > _CLK_SYSCLKSourceSwitchCmd: (2)
+
+  25 > _GPIO_DeInit: (2)
+
+  26 > _GPIO_ExternalPullUpConfig: (6)
+
+  27 > _GPIO_ReadInputData: (2)
+
+  28 > _GPIO_ReadInputDataBit: (5)
+
+  29 > _GPIO_ReadOutputData: (2)
+
+  30 > _GPIO_ReadOutputDataBit: (5)
+
+  31 > _GPIO_ResetBits: (5)
+
+  32 > _GPIO_SetBits: (5)
+
+  33 > _GPIO_ToggleBits: (5)
+
+  34 > _GPIO_Write: (5)
+
+  35 > _GPIO_WriteBit: (6)
+
+  36 > _Ht1621WrAllData: (7)
+  37      + _Ht1621Wr_Data: (5)
+  38      |    + _Ht1621_DAT_0: (2)
+  39      |    |    + _GPIO_Init: (6)
+          |    | 
+  40      |    + _Ht1621_DAT_1: (2)
+  41      |    |    + _GPIO_Init --> 39
+          |    | 
+  42      |    + _Ht1621_WR_0: (2)
+  43      |    |    + _GPIO_Init --> 39
+          |    | 
+  44      |    + _Ht1621_WR_1: (2)
+  45      |    |    + _GPIO_Init --> 39
+          |    | 
+          | 
+  46      + _Ht1621_CS_0: (2)
+  47      |    + _GPIO_Init --> 39
+          | 
+  48      + _Ht1621_CS_1: (2)
+  49      |    + _GPIO_Init --> 39
+          | 
+       
+  50 > _Ht1621_GND_1: (2)
+  51      + _GPIO_Init --> 39
+       
+  52 > _Ht1621_VCC_0: (2)
+  53      + _GPIO_Init --> 39
+       
+  54 > _RTC_AlarmSubSecondConfig: (6)
+
+  55 > _RTC_BypassShadowCmd: (2)
+
+  56 > _RTC_CalibOutputCmd: (2)
+
+  57 > _RTC_CalibOutputConfig: (2)
+
+  58 > _RTC_ClearFlag: (4)
+
+  59 > _RTC_ClearITPendingBit: (2)
+
+  60 > _RTC_DayLightSavingConfig: (4)
+
+  61 > _RTC_ExitInitMode: (2)
+
+  62 > _RTC_GetAlarm: (9)
+  63      + L5_Bcd2ToByte: (4)
+       
+  64 > _RTC_GetDate: (6)
+  65      + L5_Bcd2ToByte --> 63
+       
+  66 > _RTC_GetFlagStatus: (7)
+
+  67 > _RTC_GetITStatus: (6)
+
+  68 > _RTC_GetStoreOperation: (2)
+
+  69 > _RTC_GetSubSecond: (8)
+
+  70 > _RTC_GetWakeUpCounter: (4)
+
+  71 > _RTC_OutputConfig: (4)
+
+  72 > _RTC_RatioCmd: (2)
+
+  73 > _RTC_SetWakeUpCounter: (2)
+
+  74 > _RTC_SmoothCalibConfig: (9)
+
+  75 > _RTC_StructInit: (2)
+
+  76 > _RTC_SynchroShiftConfig: (8)
+
+  77 > _RTC_TamperCmd: (4)
+
+  78 > _RTC_TamperFilterConfig: (3)
+
+  79 > _RTC_TamperLevelConfig: (4)
+
+  80 > _RTC_TamperPinsPrechargeDuration: (3)
+
+  81 > _RTC_TamperSamplingFreqConfig: (3)
+
+  82 > _RTC_WakeUpClockConfig: (3)
+
+  83 > _RTC_WakeUpCmd: (5)
+
+  84 > _RTC_WriteProtectionCmd: (2)
+
+  85 > __stext: (0)
+
+  86 > _main: (6)
+  87      + _CLK_PeripheralClockConfig: (5)
+  88      + _CLK_RTCClockConfig: (4)
+  89      + _Calendar_Init: (2)
+  90      |    + _RTC_AlarmCmd: (5)
+  91      |    + _RTC_AlarmStructInit: (2)
+  92      |    + _RTC_DateStructInit: (2)
+  93      |    + _RTC_ITConfig: (5)
+  94      |    + _RTC_Init: (5)
+  95      |    |    + _RTC_EnterInitMode: (5)
+          |    | 
+  96      |    + _RTC_SetAlarm: (10)
+  97      |    |    + L3_ByteToBcd2: (4)
+          |    | 
+  98      |    + _RTC_SetDate: (7)
+  99      |    |    + L3_ByteToBcd2 --> 97
+ 100      |    |    + _RTC_EnterInitMode --> 95
+ 101      |    |    + _RTC_WaitForSynchro: (5)
+          |    | 
+ 102      |    + _RTC_SetTime: (6)
+ 103      |    |    + L3_ByteToBcd2 --> 97
+ 104      |    |    + _RTC_EnterInitMode --> 95
+ 105      |    |    + _RTC_WaitForSynchro --> 101
+          |    | 
+ 106      |    + _RTC_TimeStructInit: (2)
+          | 
+ 107      + _Delay: (4)
+ 108      + _Display: (2)
+ 109      |    + _Ht1621WrOneData: (4)
+ 110      |    |    + _Ht1621Wr_Data --> 37
+ 111      |    |    + _Ht1621_CS_0 --> 46
+ 112      |    |    + _Ht1621_CS_1 --> 48
+          |    | 
+          | 
+ 113      + _Display_lcd_dot: (2)
+ 114      |    + _Ht1621WrOneData --> 109
+          | 
+ 115      + _Ht1621_Init: (2)
+ 116      |    + _Ht1621WrCmd: (3)
+ 117      |    |    + _Ht1621Wr_Data --> 37
+ 118      |    |    + _Ht1621_CS_0 --> 46
+ 119      |    |    + _Ht1621_CS_1 --> 48
+          |    | 
+ 120      |    + _Ht1621_GND_0: (2)
+ 121      |    |    + _GPIO_Init --> 39
+          |    | 
+ 122      |    + _Ht1621_VCC_1: (2)
+ 123      |    |    + _GPIO_Init --> 39
+          |    | 
+          | 
+ 124      + _RTC_DeInit: (7)
+ 125      |    + _RTC_EnterInitMode --> 95
+ 126      |    + _RTC_WaitForSynchro --> 101
+          | 
+ 127      + _RTC_GetTime: (6)
+ 128      |    + L5_Bcd2ToByte --> 63
+          | 
+ 129      + _data_convertor: (6)
+       
+ 130 > f_ADC1_COMP_IRQHandler: (6)
+
+ 131 > f_DMA1_CHANNEL0_1_IRQHandler: (6)
+
+ 132 > f_DMA1_CHANNEL2_3_IRQHandler: (6)
+
+ 133 > f_EXTI0_IRQHandler: (6)
+
+ 134 > f_EXTI1_IRQHandler: (6)
+
+ 135 > f_EXTI2_IRQHandler: (6)
+
+ 136 > f_EXTI3_IRQHandler: (6)
+
+ 137 > f_EXTI4_IRQHandler: (6)
+
+ 138 > f_EXTI5_IRQHandler: (6)
+
+ 139 > f_EXTI6_IRQHandler: (6)
+
+ 140 > f_EXTI7_IRQHandler: (6)
+
+ 141 > f_EXTIB_G_IRQHandler: (6)
+
+ 142 > f_EXTID_H_IRQHandler: (6)
+
+ 143 > f_EXTIE_F_PVD_IRQHandler: (6)
+
+ 144 > f_FLASH_IRQHandler: (6)
+
+ 145 > f_I2C1_SPI2_IRQHandler: (6)
+
+ 146 > f_LCD_AES_IRQHandler: (6)
+
+ 147 > f_NonHandledInterrupt: (6)
+
+ 148 > f_RTC_CSSLSE_IRQHandler: (6)
+
+ 149 > f_SPI1_IRQHandler: (6)
+
+ 150 > f_SWITCH_CSS_BREAK_DAC_IRQHandler: (6)
+
+ 151 > f_TIM1_CC_IRQHandler: (6)
+
+ 152 > f_TIM1_UPD_OVF_TRG_COM_IRQHandler: (6)
+
+ 153 > f_TIM2_CC_USART2_RX_IRQHandler: (6)
+
+ 154 > f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler: (6)
+
+ 155 > f_TIM3_CC_USART3_RX_IRQHandler: (6)
+
+ 156 > f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler: (6)
+
+ 157 > f_TIM4_UPD_OVF_TRG_IRQHandler: (6)
+
+ 158 > f_TRAP_IRQHandler: (6)
+
+ 159 > f_USART1_RX_TIM5_CC_IRQHandler: (6)
+
+ 160 > f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+ 161   L3_ByteToBcd2 --> 97
+
+ 162   L5_Bcd2ToByte --> 63
+
+ 163   _CLK_PeripheralClockConfig --> 87
+
+ 164   _CLK_RTCClockConfig --> 88
+
+ 165   _Calendar_Init --> 89
+
+ 166   _Delay --> 107
+
+ 167   _Display --> 108
+
+ 168   _Display_lcd_dot --> 113
+
+ 169   _GPIO_Init --> 39
+
+ 170   _Ht1621WrCmd --> 116
+
+ 171   _Ht1621WrOneData --> 109
+
+ 172   _Ht1621Wr_Data --> 37
+
+ 173   _Ht1621_CS_0 --> 46
+
+ 174   _Ht1621_CS_1 --> 48
+
+ 175   _Ht1621_DAT_0 --> 38
+
+ 176   _Ht1621_DAT_1 --> 40
+
+ 177   _Ht1621_GND_0 --> 120
+
+ 178   _Ht1621_Init --> 115
+
+ 179   _Ht1621_VCC_1 --> 122
+
+ 180   _Ht1621_WR_0 --> 42
+
+ 181   _Ht1621_WR_1 --> 44
+
+ 182   _RTC_AlarmCmd --> 90
+
+ 183   _RTC_AlarmStructInit --> 91
+
+ 184   _RTC_DateStructInit --> 92
+
+ 185   _RTC_DeInit --> 124
+
+ 186   _RTC_EnterInitMode --> 95
+
+ 187   _RTC_GetTime --> 127
+
+ 188   _RTC_ITConfig --> 93
+
+ 189   _RTC_Init --> 94
+
+ 190   _RTC_SetAlarm --> 96
+
+ 191   _RTC_SetDate --> 98
+
+ 192   _RTC_SetTime --> 102
+
+ 193   _RTC_TimeStructInit --> 106
+
+ 194   _RTC_WaitForSynchro --> 101
+
+ 195   _data_convertor --> 129
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_AnalogWatchdogChannelSelect              ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_AnalogWatchdogConfig                     ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_AnalogWatchdogThresholdsConfig           ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ChannelCmd                               ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ClearFlag                                ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ClearITPendingBit                        ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_Cmd                                      ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_DMACmd                                   ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_DeInit                                   ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ExternalTrigConfig                       ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_GetConversionValue                       ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_GetFlagStatus                            ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_GetITStatus                              ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ITConfig                                 ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_Init                                     ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_SamplingTimeConfig                       ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_SchmittTriggerConfig                     ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_SoftwareStartConv                        ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_TempSensorCmd                            ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_VrefintCmd                               ********   *** removed from Debug\stm8l15x_adc.o ***
+_CLK_AdjustHSICalibrationValue                00008419   defined in Debug\stm8l15x_clk.o section .text
+_CLK_BEEPClockConfig                          00008515   defined in Debug\stm8l15x_clk.o section .text
+_CLK_CCOConfig                                00008464   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClearFlag                                000086cc   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClearITPendingBit                        00008716   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClockSecuritySystemEnable                00008451   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClockSecuritySytemDeglitchCmd            00008456   defined in Debug\stm8l15x_clk.o section .text
+_CLK_DeInit                                   000083ca   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetClockFreq                             00008475   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetFlagStatus                            00008637   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetITStatus                              000086d1   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetSYSCLKSource                          00008471   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HSEConfig                                00008433   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HSICmd                                   0000840b   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HaltConfig                               000085d0   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ITConfig                                 000085f7   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSEClockSecuritySystemEnable             000085c6   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSEConfig                                00008442   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSICmd                                   00008425   defined in Debug\stm8l15x_clk.o section .text
+_CLK_MainRegulatorCmd                         000085e9   defined in Debug\stm8l15x_clk.o section .text
+_CLK_PeripheralClockConfig                    00008519   defined in Debug\stm8l15x_clk.o section .text
+                                                         used in Debug\main.o
+_CLK_RTCCLKSwitchOnLSEFailureEnable           000085cb   defined in Debug\stm8l15x_clk.o section .text
+_CLK_RTCClockConfig                           0000850c   defined in Debug\stm8l15x_clk.o section .text
+                                                         used in Debug\main.o
+_CLK_SYSCLKDivConfig                          000084fa   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKSourceConfig                       0000846d   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKSourceSwitchCmd                    000084fe   defined in Debug\stm8l15x_clk.o section .text
+_Calendar_Init                                000082d8   defined in Debug\main.o section .text
+_Delay                                        000082c8   defined in Debug\main.o section .text
+_DispTab                                      00000000   defined in Debug\1621.o section .bsct, initialized
+_Display                                      00008216   defined in Debug\1621.o section .text
+                                                         used in Debug\main.o
+_Display_lcd_dot                              00008280   defined in Debug\1621.o section .text
+                                                         used in Debug\main.o
+_GPIO_DeInit                                  00008727   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ExternalPullUpConfig                    00008797   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Init                                    0000872f   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\1621.o
+_GPIO_ReadInputData                           000087e1   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadInputDataBit                        000087e6   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputData                          000087e4   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputDataBit                       000087ed   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ResetBits                               000087d2   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_SetBits                                 000087cb   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ToggleBits                              000087da   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Write                                   000087af   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_WriteBit                                000087b7   defined in Debug\stm8l15x_gpio.o section .text
+_Ht1621WrAllData                              000081c1   defined in Debug\1621.o section .text
+_Ht1621WrCmd                                  0000818b   defined in Debug\1621.o section .text
+_Ht1621WrOneData                              000081a1   defined in Debug\1621.o section .text
+_Ht1621Wr_Data                                00008166   defined in Debug\1621.o section .text
+_Ht1621_CS_0                                  000080ee   defined in Debug\1621.o section .text
+_Ht1621_CS_1                                  000080fa   defined in Debug\1621.o section .text
+_Ht1621_DAT_0                                 0000811e   defined in Debug\1621.o section .text
+_Ht1621_DAT_1                                 0000812a   defined in Debug\1621.o section .text
+_Ht1621_GND_0                                 00008136   defined in Debug\1621.o section .text
+_Ht1621_GND_1                                 00008142   defined in Debug\1621.o section .text
+_Ht1621_Init                                  000081f6   defined in Debug\1621.o section .text
+                                                         used in Debug\main.o
+_Ht1621_VCC_0                                 0000814e   defined in Debug\1621.o section .text
+_Ht1621_VCC_1                                 0000815a   defined in Debug\1621.o section .text
+_Ht1621_WR_0                                  00008106   defined in Debug\1621.o section .text
+_Ht1621_WR_1                                  00008112   defined in Debug\1621.o section .text
+_LCD_BlinkConfig                              ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ClearFlag                                ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ClearITPendingBit                        ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_Cmd                                      ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ContrastConfig                           ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_DeInit                                   ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_DeadTimeConfig                           ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_GetFlagStatus                            ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_GetITStatus                              ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_HighDriveCmd                             ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ITConfig                                 ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_Init                                     ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_PageSelect                               ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_PortMaskConfig                           ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_PulseOnDurationConfig                    ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_WriteRAM                                 ********   *** removed from Debug\stm8l15x_lcd.o ***
+_RTC_AlarmCmd                                 00008dd7   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_AlarmStr                                 0000001b   defined in Debug\main.o section .ubsct
+_RTC_AlarmStructInit                          00008d24   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_AlarmSubSecondConfig                     00008e28   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_BypassShadowCmd                          000089f2   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_CalibOutputCmd                           0000900e   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_CalibOutputConfig                        00008ff4   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_ClearFlag                                00009144   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_ClearITPendingBit                        0000917d   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_DateStr                                  00000022   defined in Debug\main.o section .ubsct
+_RTC_DateStructInit                           00008bd7   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_DayLightSavingConfig                     00008f0c   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_DeInit                                   000087f3   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_EnterInitMode                            00008954   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_ExitInitMode                             0000898f   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetAlarm                                 00008d36   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetDate                                  00008be5   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetFlagStatus                            0000910f   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetITStatus                              00009154   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetStoreOperation                        00008f28   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetSubSecond                             00008b01   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_GetTime                                  00008ab5   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_GetWakeUpCounter                         00008ea2   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_ITConfig                                 000090d1   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_Init                                     000088ed   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_InitStr                                  0000002a   defined in Debug\main.o section .ubsct
+_RTC_OutputConfig                             00008f2e   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_RatioCmd                                 000089d8   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_SetAlarm                                 00008c37   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_SetDate                                  00008b2a   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_SetTime                                  00008a0c   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_SetWakeUpCounter                         00008e8d   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_SmoothCalibConfig                        00008fa2   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_StructInit                               00008936   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_SynchroShiftConfig                       00008f4e   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_TamperCmd                                000090ac   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_TamperFilterConfig                       0000904f   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_TamperLevelConfig                        00009028   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_TamperPinsPrechargeDuration              0000908d   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_TamperSamplingFreqConfig                 0000906e   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_TimeStr                                  00000026   defined in Debug\main.o section .ubsct
+_RTC_TimeStructInit                           00008aad   defined in Debug\stm8l15x_rtc.o section .text
+                                                         used in Debug\main.o
+_RTC_WaitForSynchro                           00008994   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_WakeUpClockConfig                        00008e6a   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_WakeUpCmd                                00008ebf   defined in Debug\stm8l15x_rtc.o section .text
+_RTC_WriteProtectionCmd                       00008942   defined in Debug\stm8l15x_rtc.o section .text
+_SYSDivFactor                                 00008080   defined in Debug\stm8l15x_clk.o section .const
+__endmem                                      000005fe   defined in command file
+                                                         *** not used ***
+__endzp                                       00000038   defined in command file section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__idesc__                                     00008085   defined in linker section .init
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__memory                                      00000100   defined in command file section .bss
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__stack                                       000007ff   defined in command file
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__startmem                                    00000100   defined in command file section .bss
+                                                         *** not used ***
+__stext                                       0000809e   defined in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+__vectab                                      00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_data_convertor                               0000828c   defined in Debug\1621.o section .text
+                                                         used in Debug\main.o
+_exit                                         000080ec   defined in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_main                                         0000834b   defined in Debug\main.o section .text
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+_n1                                           00000017   defined in Debug\1621.o section .ubsct
+_n2                                           00000015   defined in Debug\1621.o section .ubsct
+_n3                                           00000013   defined in Debug\1621.o section .ubsct
+_n4                                           00000011   defined in Debug\1621.o section .ubsct
+_tmp                                          00000019   defined in Debug\1621.o section .ubsct
+c_divsl                                       00009203   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                                         *** not used ***
+c_divul                                       0000921a   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o
+c_imul                                        000091bc   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o section .text
+                                                         used in Debug\main.o
+c_lgneg                                       000092ee   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lneg                                        00009301   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lreg                                        0000002e   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                                         used in Debug\main.o
+                                                                 Debug\stm8l15x_clk.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o
+c_ltor                                        000091dd   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+c_ludv                                        000091ef   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+c_rtol                                        00009316   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+c_uitolx                                      00009328   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o section .text
+                                                         used in Debug\main.o
+c_x                                           00000032   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o
+                                                                 (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_y                                           00000035   defined in (D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+f_ADC1_COMP_IRQHandler                        000083be   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL0_1_IRQHandler                  000083ae   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL2_3_IRQHandler                  000083af   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI0_IRQHandler                            000083b4   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI1_IRQHandler                            000083b5   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI2_IRQHandler                            000083b6   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI3_IRQHandler                            000083b7   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI4_IRQHandler                            000083b8   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI5_IRQHandler                            000083b9   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI6_IRQHandler                            000083ba   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI7_IRQHandler                            000083bb   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIB_G_IRQHandler                          000083b2   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTID_H_IRQHandler                          000083b3   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIE_F_PVD_IRQHandler                      000083b1   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_FLASH_IRQHandler                            000083ad   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_I2C1_SPI2_IRQHandler                        000083c9   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_LCD_AES_IRQHandler                          000083bc   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt                         000083ab   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_RTC_CSSLSE_IRQHandler                       000083b0   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SPI1_IRQHandler                             000083c6   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SWITCH_CSS_BREAK_DAC_IRQHandler             000083bd   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_CC_IRQHandler                          000083c4   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler             000083c3   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_CC_USART2_RX_IRQHandler                000083c0   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler   000083bf   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_CC_USART3_RX_IRQHandler                000083c2   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler   000083c1   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_TRG_IRQHandler                 000083c5   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                             000083ac   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_RX_TIM5_CC_IRQHandler                000083c8   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler   000083c7   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o

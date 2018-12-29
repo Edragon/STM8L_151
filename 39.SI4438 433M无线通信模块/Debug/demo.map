@@ -1,0 +1,1122 @@
+
+Map of Debug\demo.sm8 from link file Debug\demo.lkf - Mon Nov 27 21:00:34 2017
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000084f7 length  1143 segment .const
+start 00008739 end 00009b15 length  5084 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 0000000a length    10 segment .ubsct
+start 0000000a end 0000000a length     0 segment .bit
+start 0000000a end 0000000a length     0 segment .share
+start 00000100 end 0000033a length   570 segment .data, initialized
+start 000084ff end 00008739 length   570 segment .data, from
+start 0000033a end 0000035b length    33 segment .bss
+start 00000000 end 0000705f length 28767 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000084f7 end 000084ff length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8:
+start 00008739 end 00008785 length    76 section .text
+start 0000033a end 0000033a length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+
+Debug\radio.o:
+start 00008785 end 00008a50 length   715 section .text
+start 00000100 end 000002b5 length   437 section .data
+start 00000000 end 0000084f length  2127 section .debug
+start 00008080 end 000084ee length  1134 section .const
+
+Debug\radio_comm.o:
+start 00008a50 end 00008b53 length   259 section .text
+start 000002b5 end 000002b6 length     1 section .data
+start 0000084f end 00000cdf length  1168 section .debug
+
+Debug\radio_hal.o:
+start 00008b53 end 00008dae length   603 section .text
+start 00000cdf end 00001445 length  1894 section .debug
+start 000084ee end 000084f2 length     4 section .const
+
+Debug\si446x_api_lib.o:
+start 00008dae end 0000918b length   989 section .text
+start 0000033a end 0000035a length    32 section .bss
+start 00001445 end 00002b79 length  5940 section .debug
+
+Debug\main.o:
+start 0000918b end 00009311 length   390 section .text
+start 000002b6 end 0000033a length   132 section .data
+start 0000035a end 0000035b length     1 section .bss
+start 00002b79 end 00002de2 length   617 section .debug
+
+Debug\stm8l15x_it.o:
+start 00009311 end 00009330 length    31 section .text
+start 00002de2 end 00003727 length  2373 section .debug
+
+Debug\stm8l15x_clk.o:
+start 00009330 end 000096bc length   908 section .text
+start 00003727 end 000050e6 length  6591 section .debug
+start 000084f2 end 000084f7 length     5 section .const
+
+Debug\stm8l15x_gpio.o:
+start 000096bc end 00009788 length   204 section .text
+start 000050e6 end 00005c0f length  2857 section .debug
+
+Debug\stm8l15x_spi.o:
+start 00009788 end 0000995f length   471 section .text
+start 00005c0f end 00006f39 length  4906 section .debug
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lreg.o:
+start 00000000 end 00000004 length     4 section .ubsct
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)xreg.o:
+start 00000004 end 00000007 length     3 section .ubsct
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)yreg.o:
+start 00000007 end 0000000a length     3 section .ubsct
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lcmp.o:
+start 0000995f end 0000997f length    32 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lgadc.o:
+start 0000997f end 0000998f length    16 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lgsbc.o:
+start 0000998f end 000099a5 length    22 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lrzmp.o:
+start 000099a5 end 000099b8 length    19 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ltor.o:
+start 000099b8 end 000099ca length    18 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ludiv.o:
+start 000099ca end 000099df length    21 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o:
+start 000099df end 00009acc length   237 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lgneg.o:
+start 00009acc end 00009adf length    19 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lneg.o:
+start 00009adf end 00009af4 length    21 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)rtol.o:
+start 00009af4 end 00009b06 length    18 section .text
+
+(D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)xymvx.o:
+start 00009b06 end 00009b15 length    15 section .text
+
+Debug\stm8_interrupt_vector.o:
+start 00006f39 end 0000705f length   294 section .debug
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+f_Delay                                           4   (4)
+f_LED_OFF                                         7   (2)
+f_LED_ON                                          7   (2)
+f_main                                       >   73   (3)
+
+Debug\radio.o:
+f_bRadio_Check_Tx_RX                             46   (2)
+f_vRadio_Init                                    54   (4)
+f_vRadio_PowerUp                                 14   (4)
+f_vRadio_Set_PA_Level                        >   71   (27)
+f_vRadio_Set_Rate                            >   53   (3)
+f_vRadio_ShutDown                            >   10   (3)
+f_vRadio_StartRX                                 48   (4)
+f_vRadio_StartTx_Variable_Packet                 50   (6)
+f_vRadio_StartTx_Variable_Packet_2           >  117   (73)
+f_vRadio_Tx_TO_Rx                                70   (20)
+
+Debug\radio_comm.o:
+f_radio_comm_ClearCTS                             2   (2)
+f_radio_comm_GetResp                             24   (8)
+f_radio_comm_PollCTS                             26   (2)
+f_radio_comm_ReadData                            33   (7)
+f_radio_comm_SendCmd                             31   (5)
+f_radio_comm_SendCmdGetResp                      39   (8)
+f_radio_comm_WriteData                           33   (7)
+
+Debug\radio_hal.o:
+f_IRQ_STATE                                  >    8   (3)
+f_MCU_PinInit                                    15   (2)
+f_SpiRCVByte                                     11   (2)
+f_SpiReadRegister                            >   15   (4)
+f_SpiSendByte                                     9   (3)
+f_SpiWriteRegister                           >   13   (4)
+f_dellay                                     >    9   (6)
+f_dellayus                                   >    8   (8)
+f_dellayxm                                   >    8   (8)
+f_dellayxms                                  >   17   (14)
+f_radio_hal_AssertShutdown                        7   (2)
+f_radio_hal_ClearNsel                             7   (2)
+f_radio_hal_DeassertShutdown                      7   (2)
+f_radio_hal_NirqLevel                             7   (2)
+f_radio_hal_SetNsel                               7   (2)
+f_radio_hal_SpiReadByte                          13   (2)
+f_radio_hal_SpiReadData                          16   (5)
+f_radio_hal_SpiWriteByte                         11   (2)
+f_radio_hal_SpiWriteData                         14   (5)
+
+Debug\si446x_api_lib.o:
+f_si446x_change_state                            33   (2)
+f_si446x_configuration_init                      50   (6)
+f_si446x_fifo_info                               41   (2)
+f_si446x_get_int_status                          44   (5)
+f_si446x_get_modem_status                        41   (2)
+f_si446x_get_property                        >   44   (5)
+f_si446x_gpio_pin_cfg                        >   48   (9)
+f_si446x_nop                                 >   33   (2)
+f_si446x_part_info                               41   (2)
+f_si446x_power_up                            >   39   (8)
+f_si446x_read_rx_fifo                            38   (5)
+f_si446x_reset                                   10   (3)
+f_si446x_set_property                        >   39   (8)
+f_si446x_start_rx                                40   (9)
+f_si446x_start_tx                                37   (6)
+f_si446x_write_tx_fifo                           38   (5)
+
+Debug\stm8l15x_clk.o:
+f_CLK_AdjustHSICalibrationValue              >    2   (2)
+f_CLK_BEEPClockConfig                        >    2   (2)
+f_CLK_CCOConfig                              >    4   (4)
+f_CLK_ClearFlag                              >    2   (2)
+f_CLK_ClearITPendingBit                      >    2   (2)
+f_CLK_ClockSecuritySystemEnable              >    2   (2)
+f_CLK_ClockSecuritySytemDeglitchCmd          >    2   (2)
+f_CLK_DeInit                                 >    2   (2)
+f_CLK_GetClockFreq                           >   26   (11)
+f_CLK_GetFlagStatus                          >    5   (5)
+f_CLK_GetITStatus                            >    4   (4)
+f_CLK_GetSYSCLKSource                        >    2   (2)
+f_CLK_HSEConfig                              >    2   (2)
+f_CLK_HSICmd                                 >    2   (2)
+f_CLK_HaltConfig                             >    4   (4)
+f_CLK_ITConfig                               >    4   (4)
+f_CLK_LSEClockSecuritySystemEnable           >    2   (2)
+f_CLK_LSEConfig                              >    2   (2)
+f_CLK_LSICmd                                 >    2   (2)
+f_CLK_MainRegulatorCmd                       >    2   (2)
+f_CLK_PeripheralClockConfig                       5   (5)
+f_CLK_RTCCLKSwitchOnLSEFailureEnable         >    2   (2)
+f_CLK_RTCClockConfig                         >    4   (4)
+f_CLK_SYSCLKDivConfig                        >    2   (2)
+f_CLK_SYSCLKSourceConfig                     >    2   (2)
+f_CLK_SYSCLKSourceSwitchCmd                  >    2   (2)
+
+Debug\stm8l15x_gpio.o:
+f_GPIO_DeInit                                >    2   (2)
+f_GPIO_ExternalPullUpConfig                  >    6   (6)
+f_GPIO_Init                                       6   (6)
+f_GPIO_ReadInputData                         >    2   (2)
+f_GPIO_ReadInputDataBit                           5   (5)
+f_GPIO_ReadOutputData                        >    2   (2)
+f_GPIO_ReadOutputDataBit                     >    5   (5)
+f_GPIO_ResetBits                                  5   (5)
+f_GPIO_SetBits                                    5   (5)
+f_GPIO_ToggleBits                            >    5   (5)
+f_GPIO_Write                                 >    5   (5)
+f_GPIO_WriteBit                              >    6   (6)
+
+Debug\stm8l15x_it.o:
+f_ADC1_COMP_IRQHandler                       >    5   (5)
+f_DMA1_CHANNEL0_1_IRQHandler                 >    5   (5)
+f_DMA1_CHANNEL2_3_IRQHandler                 >    5   (5)
+f_EXTI0_IRQHandler                           >    5   (5)
+f_EXTI1_IRQHandler                           >    5   (5)
+f_EXTI2_IRQHandler                           >    5   (5)
+f_EXTI3_IRQHandler                           >    5   (5)
+f_EXTI4_IRQHandler                           >    5   (5)
+f_EXTI5_IRQHandler                           >    5   (5)
+f_EXTI6_IRQHandler                           >    5   (5)
+f_EXTI7_IRQHandler                           >    5   (5)
+f_EXTIB_G_IRQHandler                         >    5   (5)
+f_EXTID_H_IRQHandler                         >    5   (5)
+f_EXTIE_F_PVD_IRQHandler                     >    5   (5)
+f_FLASH_IRQHandler                           >    5   (5)
+f_I2C1_SPI2_IRQHandler                       >    5   (5)
+f_LCD_AES_IRQHandler                         >    5   (5)
+f_NonHandledInterrupt                        >    5   (5)
+f_RTC_CSSLSE_IRQHandler                      >    5   (5)
+f_SPI1_IRQHandler                            >    5   (5)
+f_SWITCH_CSS_BREAK_DAC_IRQHandler            >    5   (5)
+f_TIM1_CC_IRQHandler                         >    5   (5)
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler            >    5   (5)
+f_TIM2_CC_USART2_RX_IRQHandler               >    5   (5)
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler  >    5   (5)
+f_TIM3_CC_USART3_RX_IRQHandler               >    5   (5)
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler  >    5   (5)
+f_TIM4_UPD_OVF_TRG_IRQHandler                >    5   (5)
+f_TRAP_IRQHandler                            >    5   (5)
+f_USART1_RX_TIM5_CC_IRQHandler               >    5   (5)
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler  >    5   (5)
+
+Debug\stm8l15x_spi.o:
+f_SPI_BiDirectionalLineConfig                >    5   (5)
+f_SPI_CalculateCRCCmd                            10   (5)
+f_SPI_ClearFlag                              >    5   (5)
+f_SPI_ClearITPendingBit                      >    6   (6)
+f_SPI_Cmd                                         5   (5)
+f_SPI_DMACmd                                 >    6   (6)
+f_SPI_DeInit                                      2   (2)
+f_SPI_GetCRC                                 >    6   (6)
+f_SPI_GetCRCPolynomial                       >    2   (2)
+f_SPI_GetFlagStatus                               6   (6)
+f_SPI_GetITStatus                            >    8   (8)
+f_SPI_ITConfig                               >    7   (7)
+f_SPI_Init                                       13   (13)
+f_SPI_NSSInternalSoftwareCmd                 >    5   (5)
+f_SPI_ReceiveData                                 2   (2)
+f_SPI_ResetCRC                               >   14   (4)
+f_SPI_SendData                                    5   (5)
+f_SPI_TransmitCRC                            >    2   (2)
+
+D:\Program Files (x86:
+d_lcmp                                            3   (3)
+d_lgadc                                           3   (3)
+d_lgneg                                      >    3   (3)
+d_lgsbc                                           3   (3)
+d_lneg                                       >    3   (3)
+d_lrzmp                                           3   (3)
+d_ltor                                            3   (3)
+d_ludv                                           15   (15)
+d_rtol                                            4   (4)
+d_xymvx                                           5   (5)
+
+Stack size: 122
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > f_ADC1_COMP_IRQHandler: (5)
+
+   2 > f_CLK_AdjustHSICalibrationValue: (2)
+
+   3 > f_CLK_BEEPClockConfig: (2)
+
+   4 > f_CLK_CCOConfig: (4)
+
+   5 > f_CLK_ClearFlag: (2)
+
+   6 > f_CLK_ClearITPendingBit: (2)
+
+   7 > f_CLK_ClockSecuritySystemEnable: (2)
+
+   8 > f_CLK_ClockSecuritySytemDeglitchCmd: (2)
+
+   9 > f_CLK_DeInit: (2)
+
+  10 > f_CLK_GetClockFreq: (11)
+
+  11 > f_CLK_GetFlagStatus: (5)
+
+  12 > f_CLK_GetITStatus: (4)
+
+  13 > f_CLK_GetSYSCLKSource: (2)
+
+  14 > f_CLK_HSEConfig: (2)
+
+  15 > f_CLK_HSICmd: (2)
+
+  16 > f_CLK_HaltConfig: (4)
+
+  17 > f_CLK_ITConfig: (4)
+
+  18 > f_CLK_LSEClockSecuritySystemEnable: (2)
+
+  19 > f_CLK_LSEConfig: (2)
+
+  20 > f_CLK_LSICmd: (2)
+
+  21 > f_CLK_MainRegulatorCmd: (2)
+
+  22 > f_CLK_RTCCLKSwitchOnLSEFailureEnable: (2)
+
+  23 > f_CLK_RTCClockConfig: (4)
+
+  24 > f_CLK_SYSCLKDivConfig: (2)
+
+  25 > f_CLK_SYSCLKSourceConfig: (2)
+
+  26 > f_CLK_SYSCLKSourceSwitchCmd: (2)
+
+  27 > f_DMA1_CHANNEL0_1_IRQHandler: (5)
+
+  28 > f_DMA1_CHANNEL2_3_IRQHandler: (5)
+
+  29 > f_EXTI0_IRQHandler: (5)
+
+  30 > f_EXTI1_IRQHandler: (5)
+
+  31 > f_EXTI2_IRQHandler: (5)
+
+  32 > f_EXTI3_IRQHandler: (5)
+
+  33 > f_EXTI4_IRQHandler: (5)
+
+  34 > f_EXTI5_IRQHandler: (5)
+
+  35 > f_EXTI6_IRQHandler: (5)
+
+  36 > f_EXTI7_IRQHandler: (5)
+
+  37 > f_EXTIB_G_IRQHandler: (5)
+
+  38 > f_EXTID_H_IRQHandler: (5)
+
+  39 > f_EXTIE_F_PVD_IRQHandler: (5)
+
+  40 > f_FLASH_IRQHandler: (5)
+
+  41 > f_GPIO_DeInit: (2)
+
+  42 > f_GPIO_ExternalPullUpConfig: (6)
+
+  43 > f_GPIO_ReadInputData: (2)
+
+  44 > f_GPIO_ReadOutputData: (2)
+
+  45 > f_GPIO_ReadOutputDataBit: (5)
+
+  46 > f_GPIO_ToggleBits: (5)
+
+  47 > f_GPIO_Write: (5)
+
+  48 > f_GPIO_WriteBit: (6)
+
+  49 > f_I2C1_SPI2_IRQHandler: (5)
+
+  50 > f_IRQ_STATE: (3)
+  51      + f_GPIO_ReadInputDataBit: (5)
+       
+  52 > f_LCD_AES_IRQHandler: (5)
+
+  53 > f_NonHandledInterrupt: (5)
+
+  54 > f_RTC_CSSLSE_IRQHandler: (5)
+
+  55 > f_SPI1_IRQHandler: (5)
+
+  56 > f_SPI_BiDirectionalLineConfig: (5)
+
+  57 > f_SPI_ClearFlag: (5)
+
+  58 > f_SPI_ClearITPendingBit: (6)
+
+  59 > f_SPI_DMACmd: (6)
+
+  60 > f_SPI_GetCRC: (6)
+
+  61 > f_SPI_GetCRCPolynomial: (2)
+
+  62 > f_SPI_GetITStatus: (8)
+
+  63 > f_SPI_ITConfig: (7)
+
+  64 > f_SPI_NSSInternalSoftwareCmd: (5)
+
+  65 > f_SPI_ResetCRC: (4)
+  66      + f_SPI_CalculateCRCCmd: (5)
+  67      |    + f_SPI_Cmd: (5)
+          | 
+  68      + f_SPI_Cmd --> 67
+       
+  69 > f_SPI_TransmitCRC: (2)
+
+  70 > f_SWITCH_CSS_BREAK_DAC_IRQHandler: (5)
+
+  71 > f_SpiReadRegister: (4)
+  72      + f_GPIO_ResetBits: (5)
+  73      + f_GPIO_SetBits: (5)
+  74      + f_SpiRCVByte: (2)
+  75      |    + f_SpiSendByte: (3)
+  76      |    |    + f_SPI_GetFlagStatus: (6)
+  77      |    |    + f_SPI_ReceiveData: (2)
+  78      |    |    + f_SPI_SendData: (5)
+          |    | 
+          | 
+  79      + f_SpiSendByte --> 75
+       
+  80 > f_SpiWriteRegister: (4)
+  81      + f_GPIO_ResetBits --> 72
+  82      + f_GPIO_SetBits --> 73
+  83      + f_SpiSendByte --> 75
+       
+  84 > f_TIM1_CC_IRQHandler: (5)
+
+  85 > f_TIM1_UPD_OVF_TRG_COM_IRQHandler: (5)
+
+  86 > f_TIM2_CC_USART2_RX_IRQHandler: (5)
+
+  87 > f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler: (5)
+
+  88 > f_TIM3_CC_USART3_RX_IRQHandler: (5)
+
+  89 > f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler: (5)
+
+  90 > f_TIM4_UPD_OVF_TRG_IRQHandler: (5)
+
+  91 > f_TRAP_IRQHandler: (5)
+
+  92 > f_USART1_RX_TIM5_CC_IRQHandler: (5)
+
+  93 > f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler: (5)
+
+  94 > f__stext: (0)
+
+  95 > f_dellay: (6)
+
+  96 > f_dellayus: (8)
+
+  97 > f_dellayxm: (8)
+
+  98 > f_dellayxms: (14)
+
+  99 > f_main: (3)
+ 100      + f_Delay: (4)
+ 101      + f_GPIO_Init: (6)
+ 102      + f_GPIO_ReadInputDataBit --> 51
+ 103      + f_LED_OFF: (2)
+ 104      |    + f_GPIO_SetBits --> 73
+          | 
+ 105      + f_LED_ON: (2)
+ 106      |    + f_GPIO_ResetBits --> 72
+          | 
+ 107      + f_MCU_PinInit: (2)
+ 108      |    + f_CLK_PeripheralClockConfig: (5)
+ 109      |    + f_GPIO_Init --> 101
+ 110      |    + f_GPIO_SetBits --> 73
+ 111      |    + f_SPI_Cmd --> 67
+ 112      |    + f_SPI_DeInit: (2)
+ 113      |    + f_SPI_Init: (13)
+          | 
+ 114      + f_bRadio_Check_Tx_RX: (2)
+ 115      |    + f_radio_hal_NirqLevel: (2)
+ 116      |    |    + f_GPIO_ReadInputDataBit --> 51
+          |    | 
+ 117      |    + f_si446x_change_state: (2)
+ 118      |    |    + f_radio_comm_SendCmd: (5)
+ 119      |    |    |    + f_radio_comm_PollCTS: (2)
+ 120      |    |    |    |    + f_radio_comm_GetResp: (8)
+ 121      |    |    |    |    |    + f_radio_hal_ClearNsel: (2)
+ 122      |    |    |    |    |    |    + f_GPIO_ResetBits --> 72
+          |    |    |    |    |    | 
+ 123      |    |    |    |    |    + f_radio_hal_SetNsel: (2)
+ 124      |    |    |    |    |    |    + f_GPIO_SetBits --> 73
+          |    |    |    |    |    | 
+ 125      |    |    |    |    |    + f_radio_hal_SpiReadByte: (2)
+ 126      |    |    |    |    |    |    + f_SpiRCVByte --> 74
+          |    |    |    |    |    | 
+ 127      |    |    |    |    |    + f_radio_hal_SpiReadData: (5)
+ 128      |    |    |    |    |    |    + f_SpiRCVByte --> 74
+          |    |    |    |    |    | 
+ 129      |    |    |    |    |    + f_radio_hal_SpiWriteByte: (2)
+ 130      |    |    |    |    |    |    + f_SpiSendByte --> 75
+          |    |    |    |    |    | 
+          |    |    |    |    | 
+          |    |    |    | 
+ 131      |    |    |    + f_radio_hal_ClearNsel --> 121
+ 132      |    |    |    + f_radio_hal_SetNsel --> 123
+ 133      |    |    |    + f_radio_hal_SpiWriteData: (5)
+ 134      |    |    |    |    + f_SpiSendByte --> 75
+          |    |    |    | 
+          |    |    | 
+          |    | 
+ 135      |    + f_si446x_fifo_info: (2)
+ 136      |    |    + f_radio_comm_SendCmdGetResp: (8)
+ 137      |    |    |    + f_radio_comm_GetResp --> 120
+ 138      |    |    |    + f_radio_comm_SendCmd --> 118
+          |    |    | 
+          |    | 
+ 139      |    + f_si446x_get_int_status: (5)
+ 140      |    |    + f_radio_comm_SendCmdGetResp --> 136
+          |    | 
+ 141      |    + f_si446x_get_modem_status: (2)
+ 142      |    |    + f_radio_comm_SendCmdGetResp --> 136
+          |    | 
+ 143      |    + f_si446x_read_rx_fifo: (5)
+ 144      |    |    + f_radio_comm_ReadData: (7)
+ 145      |    |    |    + f_radio_comm_PollCTS --> 119
+ 146      |    |    |    + f_radio_hal_ClearNsel --> 121
+ 147      |    |    |    + f_radio_hal_SetNsel --> 123
+ 148      |    |    |    + f_radio_hal_SpiReadData --> 127
+ 149      |    |    |    + f_radio_hal_SpiWriteByte --> 129
+          |    |    | 
+          |    | 
+          | 
+ 150      + f_vRadio_Init: (4)
+ 151      |    + f_si446x_configuration_init: (6)
+ 152      |    |    + f_radio_comm_SendCmdGetResp --> 136
+ 153      |    |    + f_radio_hal_NirqLevel --> 115
+ 154      |    |    + f_si446x_get_int_status --> 139
+          |    | 
+ 155      |    + f_si446x_get_int_status --> 139
+ 156      |    + f_si446x_part_info: (2)
+ 157      |    |    + f_radio_comm_SendCmdGetResp --> 136
+          |    | 
+ 158      |    + f_vRadio_PowerUp: (4)
+ 159      |    |    + f_si446x_reset: (3)
+ 160      |    |    |    + f_radio_comm_ClearCTS: (2)
+ 161      |    |    |    + f_radio_hal_AssertShutdown: (2)
+ 162      |    |    |    |    + f_GPIO_SetBits --> 73
+          |    |    |    | 
+ 163      |    |    |    + f_radio_hal_DeassertShutdown: (2)
+ 164      |    |    |    |    + f_GPIO_ResetBits --> 72
+          |    |    |    | 
+          |    |    | 
+          |    | 
+          | 
+ 165      + f_vRadio_StartRX: (4)
+ 166      |    + f_si446x_change_state --> 117
+ 167      |    + f_si446x_fifo_info --> 135
+ 168      |    + f_si446x_get_int_status --> 139
+ 169      |    + f_si446x_start_rx: (9)
+ 170      |    |    + f_radio_comm_SendCmd --> 118
+          |    | 
+          | 
+ 171      + f_vRadio_StartTx_Variable_Packet: (6)
+ 172      |    + f_si446x_change_state --> 117
+ 173      |    + f_si446x_fifo_info --> 135
+ 174      |    + f_si446x_get_int_status --> 139
+ 175      |    + f_si446x_start_tx: (6)
+ 176      |    |    + f_radio_comm_SendCmd --> 118
+          |    | 
+ 177      |    + f_si446x_write_tx_fifo: (5)
+ 178      |    |    + f_radio_comm_WriteData: (7)
+ 179      |    |    |    + f_radio_comm_PollCTS --> 119
+ 180      |    |    |    + f_radio_hal_ClearNsel --> 121
+ 181      |    |    |    + f_radio_hal_SetNsel --> 123
+ 182      |    |    |    + f_radio_hal_SpiWriteByte --> 129
+ 183      |    |    |    + f_radio_hal_SpiWriteData --> 133
+          |    |    | 
+          |    | 
+          | 
+ 184      + f_vRadio_Tx_TO_Rx: (20)
+ 185      |    + f_si446x_configuration_init --> 151
+          | 
+       
+ 186 > f_si446x_get_property: (5)
+ 187      + f_radio_comm_SendCmdGetResp --> 136
+       
+ 188 > f_si446x_gpio_pin_cfg: (9)
+ 189      + f_radio_comm_SendCmdGetResp --> 136
+       
+ 190 > f_si446x_nop: (2)
+ 191      + f_radio_comm_SendCmd --> 118
+       
+ 192 > f_si446x_power_up: (8)
+ 193      + f_radio_comm_SendCmd --> 118
+       
+ 194 > f_si446x_set_property: (8)
+ 195      + f_radio_comm_SendCmd --> 118
+       
+ 196 > f_vRadio_Set_PA_Level: (27)
+ 197      + f_radio_comm_SendCmdGetResp --> 136
+ 198      + f_radio_hal_NirqLevel --> 115
+ 199      + f_si446x_get_int_status --> 139
+       
+ 200 > f_vRadio_Set_Rate: (3)
+ 201      + f_si446x_configuration_init --> 151
+       
+ 202 > f_vRadio_ShutDown: (3)
+ 203      + f_radio_hal_AssertShutdown --> 161
+       
+ 204 > f_vRadio_StartTx_Variable_Packet_2: (73)
+ 205      + f_si446x_change_state --> 117
+ 206      + f_si446x_fifo_info --> 135
+ 207      + f_si446x_get_int_status --> 139
+ 208      + f_si446x_start_tx --> 175
+ 209      + f_si446x_write_tx_fifo --> 177
+       
+ 210   f_CLK_PeripheralClockConfig --> 108
+
+ 211   f_Delay --> 100
+
+ 212   f_GPIO_Init --> 101
+
+ 213   f_GPIO_ReadInputDataBit --> 51
+
+ 214   f_GPIO_ResetBits --> 72
+
+ 215   f_GPIO_SetBits --> 73
+
+ 216   f_LED_OFF --> 103
+
+ 217   f_LED_ON --> 105
+
+ 218   f_MCU_PinInit --> 107
+
+ 219   f_SPI_CalculateCRCCmd --> 66
+
+ 220   f_SPI_Cmd --> 67
+
+ 221   f_SPI_DeInit --> 112
+
+ 222   f_SPI_GetFlagStatus --> 76
+
+ 223   f_SPI_Init --> 113
+
+ 224   f_SPI_ReceiveData --> 77
+
+ 225   f_SPI_SendData --> 78
+
+ 226   f_SpiRCVByte --> 74
+
+ 227   f_SpiSendByte --> 75
+
+ 228   f_bRadio_Check_Tx_RX --> 114
+
+ 229   f_radio_comm_ClearCTS --> 160
+
+ 230   f_radio_comm_GetResp --> 120
+
+ 231   f_radio_comm_PollCTS --> 119
+
+ 232   f_radio_comm_ReadData --> 144
+
+ 233   f_radio_comm_SendCmd --> 118
+
+ 234   f_radio_comm_SendCmdGetResp --> 136
+
+ 235   f_radio_comm_WriteData --> 178
+
+ 236   f_radio_hal_AssertShutdown --> 161
+
+ 237   f_radio_hal_ClearNsel --> 121
+
+ 238   f_radio_hal_DeassertShutdown --> 163
+
+ 239   f_radio_hal_NirqLevel --> 115
+
+ 240   f_radio_hal_SetNsel --> 123
+
+ 241   f_radio_hal_SpiReadByte --> 125
+
+ 242   f_radio_hal_SpiReadData --> 127
+
+ 243   f_radio_hal_SpiWriteByte --> 129
+
+ 244   f_radio_hal_SpiWriteData --> 133
+
+ 245   f_si446x_change_state --> 117
+
+ 246   f_si446x_configuration_init --> 151
+
+ 247   f_si446x_fifo_info --> 135
+
+ 248   f_si446x_get_int_status --> 139
+
+ 249   f_si446x_get_modem_status --> 141
+
+ 250   f_si446x_part_info --> 156
+
+ 251   f_si446x_read_rx_fifo --> 143
+
+ 252   f_si446x_reset --> 159
+
+ 253   f_si446x_start_rx --> 169
+
+ 254   f_si446x_start_tx --> 175
+
+ 255   f_si446x_write_tx_fifo --> 177
+
+ 256   f_vRadio_Init --> 150
+
+ 257   f_vRadio_PowerUp --> 158
+
+ 258   f_vRadio_StartRX --> 165
+
+ 259   f_vRadio_StartTx_Variable_Packet --> 171
+
+ 260   f_vRadio_Tx_TO_Rx --> 184
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ChannelNumber                                00000336   defined in Debug\main.o section .data, initialized
+_Pro2Cmd                                      0000033a   defined in Debug\si446x_api_lib.o section .bss
+_RadioConfiguration                           0000026c   defined in Debug\radio.o section .data, initialized
+_Radio_Configuration_Data_Array               00000100   defined in Debug\radio.o section .data, initialized
+_RfRxBuffer                                   000002f6   defined in Debug\main.o section .data, initialized
+                                                         used in Debug\radio.o
+_RfTxBuffer                                   000002b6   defined in Debug\main.o section .data, initialized
+_SYSDivFactor                                 000084f2   defined in Debug\stm8l15x_clk.o section .const
+_Send_Ok                                      00000338   defined in Debug\main.o section .data, initialized
+_Si446xCmd                                    0000034a   defined in Debug\si446x_api_lib.o section .bss
+                                                         used in Debug\radio.o
+                                                                 Debug\main.o
+__endmem                                      000005fe   defined in command file
+                                                         *** not used ***
+__endzp                                       0000000a   defined in command file section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+__idesc__                                     000084f7   defined in linker section .init
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+__memory                                      0000035b   defined in command file section .bss
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+__stack                                       000007ff   defined in command file
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+__startmem                                    0000035b   defined in command file section .bss
+                                                         *** not used ***
+__stext                                       00008739   defined in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8 section .text
+                                                         *** not used ***
+__vectab                                      00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_bRF_IT_Status                                00000337   defined in Debug\main.o section .data, initialized
+_ctsWentHigh                                  000002b5   defined in Debug\radio_comm.o section .data, initialized
+_pRadioConfiguration                          000002b3   defined in Debug\radio.o section .data, initialized
+_rate_100k_config                             000083bd   defined in Debug\radio.o section .const
+_rate_1200_config                             0000814b   defined in Debug\radio.o section .const
+_rate_200k_config                             00008451   defined in Debug\radio.o section .const
+_rate_2400_config                             000081a6   defined in Debug\radio.o section .const
+_rate_40k_config                              0000833d   defined in Debug\radio.o section .const
+_rate_4800_config                             00008201   defined in Debug\radio.o section .const
+_rate_600_config                              000080ea   defined in Debug\radio.o section .const
+_rate_9600_config                             00008282   defined in Debug\radio.o section .const
+_rssi                                         00000339   defined in Debug\main.o section .data, initialized
+                                                         used in Debug\radio.o
+_ucPackLgth                                   0000035a   defined in Debug\main.o section .bss
+                                                         used in Debug\radio.o
+c_lreg                                        00000000   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lreg.o section .ubsct
+                                                         used in Debug\stm8l15x_clk.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lcmp.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lrzmp.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ltor.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lneg.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)rtol.o
+c_x                                           00000004   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)xreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+                                                                 (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)xymvx.o
+c_y                                           00000007   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)yreg.o section .ubsct
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+d_divsl                                       000099df   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o section .text
+                                                         *** not used ***
+d_divul                                       000099f8   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ludiv.o
+d_lcmp                                        0000995f   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lcmp.o section .text
+                                                         used in Debug\radio_hal.o
+d_lgadc                                       0000997f   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lgadc.o section .text
+                                                         used in Debug\radio_hal.o
+d_lgneg                                       00009acc   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lgneg.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+d_lgsbc                                       0000998f   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lgsbc.o section .text
+                                                         used in Debug\radio_hal.o
+d_lneg                                        00009adf   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lneg.o section .text
+                                                         used in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ldiv.o
+d_lrzmp                                       000099a5   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)lrzmp.o section .text
+                                                         used in Debug\radio_hal.o
+d_ltor                                        000099b8   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ltor.o section .text
+                                                         used in Debug\radio_hal.o
+                                                                 Debug\stm8l15x_clk.o
+d_ludv                                        000099ca   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)ludiv.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+d_rtol                                        00009af4   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)rtol.o section .text
+                                                         used in Debug\stm8l15x_clk.o
+d_xymvx                                       00009b06   defined in (D:\Program Files (x86)\COSMIC\CXSTM8\Lib\libm.sm8)xymvx.o section .text
+                                                         used in Debug\radio.o
+f_ADC1_COMP_IRQHandler                        00009324   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_CLK_AdjustHSICalibrationValue               0000937f   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_BEEPClockConfig                         0000949b   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_CCOConfig                               000093ca   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_ClearFlag                               0000965f   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_ClearITPendingBit                       000096ab   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_ClockSecuritySystemEnable               000093b7   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_ClockSecuritySytemDeglitchCmd           000093bc   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_DeInit                                  00009330   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_GetClockFreq                            000093db   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_GetFlagStatus                           000095bf   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_GetITStatus                             00009664   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_GetSYSCLKSource                         000093d7   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_HSEConfig                               00009399   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_HSICmd                                  00009371   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_HaltConfig                              00009558   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_ITConfig                                0000957f   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_LSEClockSecuritySystemEnable            0000954e   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_LSEConfig                               000093a8   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_LSICmd                                  0000938b   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_MainRegulatorCmd                        00009571   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_PeripheralClockConfig                   0000949f   defined in Debug\stm8l15x_clk.o section .text
+                                                         used in Debug\radio_hal.o
+f_CLK_RTCCLKSwitchOnLSEFailureEnable          00009553   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_RTCClockConfig                          00009492   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_SYSCLKDivConfig                         00009480   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_SYSCLKSourceConfig                      000093d3   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_CLK_SYSCLKSourceSwitchCmd                   00009484   defined in Debug\stm8l15x_clk.o section .text
+                                                         *** not used ***
+f_DMA1_CHANNEL0_1_IRQHandler                  00009314   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_DMA1_CHANNEL2_3_IRQHandler                  00009315   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_Delay                                       0000918b   defined in Debug\main.o section .text
+f_EXTI0_IRQHandler                            0000931a   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI1_IRQHandler                            0000931b   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI2_IRQHandler                            0000931c   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI3_IRQHandler                            0000931d   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI4_IRQHandler                            0000931e   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI5_IRQHandler                            0000931f   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI6_IRQHandler                            00009320   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTI7_IRQHandler                            00009321   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIB_G_IRQHandler                          00009318   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTID_H_IRQHandler                          00009319   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_EXTIE_F_PVD_IRQHandler                      00009317   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_FLASH_IRQHandler                            00009313   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_GPIO_DeInit                                 000096bc   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_ExternalPullUpConfig                   0000972c   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_Init                                   000096c4   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\radio_hal.o
+                                                                 Debug\main.o
+f_GPIO_ReadInputData                          00009776   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_ReadInputDataBit                       0000977b   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\radio_hal.o
+                                                                 Debug\main.o
+f_GPIO_ReadOutputData                         00009779   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_ReadOutputDataBit                      00009782   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_ResetBits                              00009767   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\radio_hal.o
+                                                                 Debug\main.o
+f_GPIO_SetBits                                00009760   defined in Debug\stm8l15x_gpio.o section .text
+                                                         used in Debug\radio_hal.o
+                                                                 Debug\main.o
+f_GPIO_ToggleBits                             0000976f   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_Write                                  00009744   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_GPIO_WriteBit                               0000974c   defined in Debug\stm8l15x_gpio.o section .text
+                                                         *** not used ***
+f_I2C1_SPI2_IRQHandler                        0000932f   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_IRQ_STATE                                   00008c17   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_LCD_AES_IRQHandler                          00009322   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_LED_OFF                                     000091a6   defined in Debug\main.o section .text
+f_LED_ON                                      0000919b   defined in Debug\main.o section .text
+f_MCU_PinInit                                 00008c2c   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\main.o
+f_NonHandledInterrupt                         00009311   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_RTC_CSSLSE_IRQHandler                       00009316   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SPI1_IRQHandler                             0000932c   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SPI_BiDirectionalLineConfig                 00009800   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_CalculateCRCCmd                         0000982a   defined in Debug\stm8l15x_spi.o section .text
+f_SPI_ClearFlag                               000098da   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_ClearITPendingBit                       0000993d   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_Cmd                                     000097d6   defined in Debug\stm8l15x_spi.o section .text
+                                                         used in Debug\radio_hal.o
+f_SPI_DMACmd                                  0000987c   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_DeInit                                  00009788   defined in Debug\stm8l15x_spi.o section .text
+                                                         used in Debug\radio_hal.o
+f_SPI_GetCRC                                  0000984d   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_GetCRCPolynomial                        00009879   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_GetFlagStatus                           000098c3   defined in Debug\stm8l15x_spi.o section .text
+                                                         used in Debug\radio_hal.o
+f_SPI_GetITStatus                             000098e4   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_ITConfig                                00009894   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_Init                                    00009796   defined in Debug\stm8l15x_spi.o section .text
+                                                         used in Debug\radio_hal.o
+f_SPI_NSSInternalSoftwareCmd                  000097e9   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_ReceiveData                             00009820   defined in Debug\stm8l15x_spi.o section .text
+                                                         used in Debug\radio_hal.o
+f_SPI_ResetCRC                                00009866   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SPI_SendData                                00009817   defined in Debug\stm8l15x_spi.o section .text
+                                                         used in Debug\radio_hal.o
+f_SPI_TransmitCRC                             00009823   defined in Debug\stm8l15x_spi.o section .text
+                                                         *** not used ***
+f_SWITCH_CSS_BREAK_DAC_IRQHandler             00009323   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_SpiRCVByte                                  00008ce5   defined in Debug\radio_hal.o section .text
+f_SpiReadRegister                             00008ceb   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_SpiSendByte                                 00008cb3   defined in Debug\radio_hal.o section .text
+f_SpiWriteRegister                            00008d11   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_TIM1_CC_IRQHandler                          0000932a   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_COM_IRQHandler             00009329   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_CC_USART2_RX_IRQHandler                00009326   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler   00009325   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_CC_USART3_RX_IRQHandler                00009328   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler   00009327   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_TRG_IRQHandler                 0000932b   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                             00009312   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_RX_TIM5_CC_IRQHandler                0000932e   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler   0000932d   defined in Debug\stm8l15x_it.o section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f__stext                                      00008739   defined in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8 section .text
+                                                         used in Debug\stm8_interrupt_vector.o
+f_bRadio_Check_Tx_RX                          000087f0   defined in Debug\radio.o section .text
+                                                         used in Debug\main.o
+f_dellay                                      00008ba4   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_dellayus                                    00008b53   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_dellayxm                                    00008b79   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_dellayxms                                   00008bbd   defined in Debug\radio_hal.o section .text
+                                                         *** not used ***
+f_exit                                        00008783   defined in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8 section .text
+f_main                                        000091b1   defined in Debug\main.o section .text
+                                                         used in D:\Program Files (x86)\COSMIC\CXSTM8\Lib\crtsi.sm8
+f_radio_comm_ClearCTS                         00008b38   defined in Debug\radio_comm.o section .text
+                                                         used in Debug\si446x_api_lib.o
+f_radio_comm_GetResp                          00008a50   defined in Debug\radio_comm.o section .text
+f_radio_comm_PollCTS                          00008b2f   defined in Debug\radio_comm.o section .text
+f_radio_comm_ReadData                         00008ad1   defined in Debug\radio_comm.o section .text
+                                                         used in Debug\si446x_api_lib.o
+f_radio_comm_SendCmd                          00008aac   defined in Debug\radio_comm.o section .text
+                                                         used in Debug\si446x_api_lib.o
+f_radio_comm_SendCmdGetResp                   00008b3d   defined in Debug\radio_comm.o section .text
+                                                         used in Debug\radio.o
+                                                                 Debug\si446x_api_lib.o
+f_radio_comm_WriteData                        00008b00   defined in Debug\radio_comm.o section .text
+                                                         used in Debug\si446x_api_lib.o
+f_radio_hal_AssertShutdown                    00008d36   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio.o
+                                                                 Debug\si446x_api_lib.o
+f_radio_hal_ClearNsel                         00008d4c   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio_comm.o
+f_radio_hal_DeassertShutdown                  00008d41   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\si446x_api_lib.o
+f_radio_hal_NirqLevel                         00008d62   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio.o
+                                                                 Debug\si446x_api_lib.o
+f_radio_hal_SetNsel                           00008d57   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio_comm.o
+f_radio_hal_SpiReadByte                       00008d73   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio_comm.o
+f_radio_hal_SpiReadData                       00008d93   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio_comm.o
+f_radio_hal_SpiWriteByte                      00008d6e   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio_comm.o
+f_radio_hal_SpiWriteData                      00008d78   defined in Debug\radio_hal.o section .text
+                                                         used in Debug\radio_comm.o
+f_si446x_change_state                         000090ab   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_configuration_init                   00008e5f   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_fifo_info                            000090ce   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_get_int_status                       00008faf   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_get_modem_status                     00008dae   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_get_property                         00009114   defined in Debug\si446x_api_lib.o section .text
+                                                         *** not used ***
+f_si446x_gpio_pin_cfg                         00008ffd   defined in Debug\si446x_api_lib.o section .text
+                                                         *** not used ***
+f_si446x_nop                                  000090be   defined in Debug\si446x_api_lib.o section .text
+                                                         *** not used ***
+f_si446x_part_info                            00008ed5   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_power_up                             00008e31   defined in Debug\si446x_api_lib.o section .text
+                                                         *** not used ***
+f_si446x_read_rx_fifo                         00009103   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_reset                                00008e0e   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_set_property                         0000905a   defined in Debug\si446x_api_lib.o section .text
+                                                         *** not used ***
+f_si446x_start_rx                             00008f7c   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_start_tx                             00008f50   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_si446x_write_tx_fifo                        000090f2   defined in Debug\si446x_api_lib.o section .text
+                                                         used in Debug\radio.o
+f_vRadio_Init                                 000087a7   defined in Debug\radio.o section .text
+                                                         used in Debug\main.o
+f_vRadio_PowerUp                              00008785   defined in Debug\radio.o section .text
+f_vRadio_Set_PA_Level                         00008935   defined in Debug\radio.o section .text
+                                                         *** not used ***
+f_vRadio_Set_Rate                             000089ba   defined in Debug\radio.o section .text
+                                                         *** not used ***
+f_vRadio_ShutDown                             00008a3f   defined in Debug\radio.o section .text
+                                                         *** not used ***
+f_vRadio_StartRX                              0000885d   defined in Debug\radio.o section .text
+                                                         used in Debug\main.o
+f_vRadio_StartTx_Variable_Packet              0000888b   defined in Debug\radio.o section .text
+                                                         used in Debug\main.o
+f_vRadio_StartTx_Variable_Packet_2            000088be   defined in Debug\radio.o section .text
+                                                         *** not used ***
+f_vRadio_Tx_TO_Rx                             0000899f   defined in Debug\radio.o section .text
+                                                         used in Debug\main.o
